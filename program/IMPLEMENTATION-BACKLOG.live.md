@@ -492,14 +492,35 @@ First normalized set:
 - **lineage_or_origin**: Campaign 05 synthesis and its converged next-leg ordering
 
 1. create append-only mutation history for office-harness state and bind a rematerialization rule to the effective registry
-   Status: staged
+   Status: completed
 2. promote the remaining federal office metadata contracts from `reference-specimen` to validator-backed operative state where lawful
-   Status: staged
+   Status: completed
 3. create append-only receipt or drift history for config-surface state and attach a first consumer to the seeded registry and projection matrix
-   Status: staged
+   Status: completed
 4. open the first repo-native `chat_ci` render or receipt surface so chat custom-instruction handling stops being purely deferred
-   Status: staged
+   Status: completed
 5. add append-only mutation history for the live-ledger domain register and advance seed families toward `phase1_repo_proof`
-   Status: staged
+   Status: partial
 6. keep exocortex and ontology widening derivative until repo-native proof families are complete
+   Status: active
+
+### Tranche AL — First Projection Wave And Config Proof Uplift
+
+- **program_id**: `TRANCHE-AL`
+- **intent_refs**: `INT-SHELL-001`, `INT-SHELL-003`, `INT-SHELL-005`
+- **rosetta_refs**: `constitution`, `operator`, `office`, `repo sovereignty`, `exocortex`, `ontology`, `projection`
+- **execution_surface**: [IMPLEMENTATION-TRANCHE-AL-FIRST-PROJECTION-WAVE-AND-CONFIG-PROOF-UPLIFT.md](/Users/system/syncrescendence/program/IMPLEMENTATION-TRANCHE-AL-FIRST-PROJECTION-WAVE-AND-CONFIG-PROOF-UPLIFT.md)
+- **lineage_or_origin**: Campaign 06 synthesis and coordinator-ordered projection-ready frontier
+
+1. reconcile the live-ledger family register and its ledger with the newly true `office_harness_state` proof
+   Status: staged
+2. define and implement one narrow exocortex-facing office-harness projection that stays strictly derivative and pointer-carrying
+   Status: staged
+3. add projection receipts or audit surfaces for that office-harness exocortex projection
+   Status: staged
+4. write rematerialization law and a builder for `config_surface_state`
+   Status: staged
+5. widen the repo-native `chat_ci` foothold into stronger provider-profile or projection-ready packers without leaving repo sovereignty
+   Status: staged
+6. keep config-surface exocortex widening deferred until rematerialization is real
    Status: staged

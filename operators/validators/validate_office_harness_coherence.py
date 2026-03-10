@@ -54,6 +54,16 @@ ALLOWED_HARNESS_FAMILIES = {
     "openclaw_mac_mini": {"openclaw"},
     "openclaw_macbook_air": {"openclaw"},
 }
+OPENCLAW_REQUIRED_BINDING_FIELDS = ("machine", "provider", "auth_mode")
+OPENCLAW_OPTIONAL_BINDING_FIELDS = ("model", "account_ref")
+OPENCLAW_ALLOWED_BINDING_FIELDS = {
+    "primary_harness",
+    "harness_family",
+    "avatar_label",
+    "surface_class",
+    *OPENCLAW_REQUIRED_BINDING_FIELDS,
+    *OPENCLAW_OPTIONAL_BINDING_FIELDS,
+}
 
 
 @dataclass(frozen=True)
@@ -238,6 +248,30 @@ def ensure_string_list(
     return items
 
 
+def optional_string(
+    findings: list[Finding],
+    data: dict[str, Any],
+    dotted_path: str,
+    *,
+    office_id: str,
+) -> str | None:
+    value = nested_get(data, *dotted_path.split("."))
+    if value is None:
+        return None
+    if isinstance(value, date):
+        value = value.isoformat()
+    if not isinstance(value, str) or not value.strip():
+        add_finding(
+            findings,
+            class_name="invalid_contract",
+            scope=dotted_path,
+            office_id=office_id,
+            message=f"{dotted_path} must be omitted or set to a non-empty string",
+        )
+        return None
+    return value.strip()
+
+
 def expected_harness_family(primary_harness: str) -> str:
     if primary_harness.startswith("openclaw_"):
         return "openclaw"
@@ -289,7 +323,6 @@ def validate_contract(
     certified_harnesses: dict[str, str],
     lane_roots: set[str],
     findings: list[Finding],
-    generated_at: str,
 ) -> dict[str, Any] | None:
     office_root = REPO_ROOT / "offices" / office.office_id
     metadata_path = office_root / "platform" / "contracts" / "OFFICE-HARNESS-METADATA.v1.yaml"
@@ -385,6 +418,11 @@ def validate_contract(
     binding_state = ensure_string(findings, parsed, "status.binding_state", office_id=office.office_id)
     contract_state = ensure_string(findings, parsed, "status.contract_state", office_id=office.office_id)
     last_verified_on = ensure_string(findings, parsed, "status.last_verified_on", office_id=office.office_id)
+    binding_machine = nested_get(parsed, "binding", "machine")
+    binding_provider = nested_get(parsed, "binding", "provider")
+    binding_model = nested_get(parsed, "binding", "model")
+    binding_auth_mode = nested_get(parsed, "binding", "auth_mode")
+    binding_account_ref = nested_get(parsed, "binding", "account_ref")
 
     if schema_version and schema_version != EXPECTED_SCHEMA_VERSION:
         add_finding(
@@ -531,8 +569,32 @@ def validate_contract(
             )
 
     if primary_harness and primary_harness.startswith("openclaw_"):
-        for dotted_path in ("binding.machine", "binding.provider", "binding.auth_mode"):
-            ensure_string(findings, parsed, dotted_path, office_id=office.office_id)
+        binding_mapping = nested_get(parsed, "binding")
+        if isinstance(binding_mapping, dict):
+            unknown_binding_keys = sorted(set(binding_mapping) - OPENCLAW_ALLOWED_BINDING_FIELDS)
+            for key in unknown_binding_keys:
+                add_finding(
+                    findings,
+                    class_name="invalid_contract",
+                    scope=f"binding.{key}",
+                    office_id=office.office_id,
+                    message="binding field is not part of the current OpenClaw office-harness contract",
+                )
+
+        binding_machine = ensure_string(findings, parsed, "binding.machine", office_id=office.office_id)
+        binding_provider = ensure_string(findings, parsed, "binding.provider", office_id=office.office_id)
+        binding_auth_mode = ensure_string(findings, parsed, "binding.auth_mode", office_id=office.office_id)
+        binding_model = optional_string(findings, parsed, "binding.model", office_id=office.office_id)
+        binding_account_ref = optional_string(findings, parsed, "binding.account_ref", office_id=office.office_id)
+
+        if surface_class and surface_class != "persistent-runtime":
+            add_finding(
+                findings,
+                class_name="illegal_harness_binding",
+                scope="binding.surface_class",
+                office_id=office.office_id,
+                message="OpenClaw office bindings must use surface_class 'persistent-runtime'",
+            )
 
     for lane in may_promote_to:
         if lane not in lane_roots:
@@ -662,6 +724,11 @@ def validate_contract(
         "harness_family": harness_family,
         "avatar_label": avatar_label,
         "surface_class": surface_class,
+        "machine": binding_machine if isinstance(binding_machine, str) else None,
+        "provider": binding_provider if isinstance(binding_provider, str) else None,
+        "model": binding_model if isinstance(binding_model, str) else None,
+        "auth_mode": binding_auth_mode if isinstance(binding_auth_mode, str) else None,
+        "account_ref": binding_account_ref if isinstance(binding_account_ref, str) else None,
         "may_promote_to": may_promote_to,
         "local_only_classes": local_only_classes,
         "required_sources": required_sources,
@@ -675,7 +742,6 @@ def validate_contract(
         "validator_state": "clean" if not row_errors else "findings_present",
         "authority_state": authority_state,
         "finding_count": len(office_findings),
-        "generated_at": generated_at,
     }
 
 
@@ -696,7 +762,6 @@ def collect_report() -> tuple[dict[str, Any], list[dict[str, Any]]]:
             certified_harnesses=certified_harnesses,
             lane_roots=lane_roots,
             findings=findings,
-            generated_at=generated_at,
         )
         if record is not None:
             records.append(record)

@@ -7,13 +7,14 @@
   "source_refs": [
     "knowledge/sigma/CONFIG-SOURCE-OF-TRUTH-ARCHITECTURE-v1.md",
     "knowledge/sigma/CONFIG-BEHAVIOR-ATOMS-AND-SURFACE-PROFILES-v1.md",
-    "orchestration/state/impl/CODEX-CAMPAIGN-05-TYPED-MIDDLE-LAYER-OPERATIONALIZATION-v1.md"
+    "orchestration/state/impl/CODEX-CAMPAIGN-05-TYPED-MIDDLE-LAYER-OPERATIONALIZATION-v1.md",
+    "orchestration/state/impl/CODEX-CAMPAIGN-06-APPEND-ONLY-FAMILY-OPERATIONALIZATION-v1.md"
   ],
   "seed_constraints": {
     "non_exhaustive": true,
     "repo_resident_only": true,
     "vendor_runtime_exports_included": false,
-    "lawful_exclusion_note": "External chat custom-instruction surfaces are defined doctrinally but deferred until a repo-native render or receipt surface exists."
+    "lawful_exclusion_note": "External vendor runtime exports remain excluded. Chat custom-instruction handling is seeded only through a repo-native render foothold until provider-specific render and export paths are ratified."
   },
   "compression_priority": [
     "AF-02",
@@ -70,7 +71,7 @@
   "surface_classes": [
     {
       "surface_class": "chat_ci",
-      "seed_status": "deferred_external",
+      "seed_status": "seeded_repo_native_render",
       "authority_mode": "witness_corpus_or_rendered_derivative",
       "required_families": [
         "AF-01",
@@ -82,7 +83,7 @@
         "AF-07",
         "AF-08"
       ],
-      "seed_note": "Defined in Sigma doctrine but not seeded here because no repo-resident concrete shell surface currently carries the managed projection."
+      "seed_note": "Seeded through one repo-native render surface that compresses the witness corpus and config kernel without asserting any provider-specific runtime export."
     },
     {
       "surface_class": "cli_constitution",
@@ -432,6 +433,111 @@
       "surface_role": "append_only_mutation_ledger",
       "authoring_mode": "machine_appended",
       "authority_tier": "append_only_record",
+      "bound_families": [
+        "AF-02",
+        "AF-05",
+        "AF-07",
+        "AF-08"
+      ],
+      "conditional_families": [
+        "AF-01",
+        "AF-06"
+      ]
+    },
+    {
+      "surface_id": "cfgs-013",
+      "path": "orchestration/state/registry/CHAT-CI-RENDER-SURFACE-v1.md",
+      "surface_class": "chat_ci",
+      "surface_role": "repo_native_projection_foothold",
+      "authoring_mode": "hand_authored_render",
+      "authority_tier": "rendered_derivative",
+      "bound_families": [
+        "AF-01",
+        "AF-02",
+        "AF-03",
+        "AF-04",
+        "AF-05",
+        "AF-06",
+        "AF-07",
+        "AF-08"
+      ],
+      "source_refs": [
+        "knowledge/sigma/references/chat-app-custom-instructions/CANONICAL-CI-PROVENANCE-REPORT.md",
+        "knowledge/sigma/CHAT-APP-CUSTOM-INSTRUCTION-ARCHITECTURE-v1.md",
+        "knowledge/sigma/CONFIG-BEHAVIOR-ATOMS-AND-SURFACE-PROFILES-v1.md",
+        "knowledge/sigma/CONFIG-SOURCE-OF-TRUTH-ARCHITECTURE-v1.md"
+      ]
+    },
+    {
+      "surface_id": "cfgs-014",
+      "path": "orchestration/state/registry/CONFIG-SURFACE-REGISTRY-v1.json",
+      "surface_class": "ledger",
+      "surface_role": "config_surface_seed_registry",
+      "authoring_mode": "machine_mutated_controlled",
+      "authority_tier": "current_state_record",
+      "bound_families": [
+        "AF-02",
+        "AF-05",
+        "AF-07",
+        "AF-08"
+      ],
+      "conditional_families": [
+        "AF-01",
+        "AF-06"
+      ],
+      "validator_refs": [
+        "operators/validators/validate_config_surface_state.py"
+      ]
+    },
+    {
+      "surface_id": "cfgs-015",
+      "path": "orchestration/state/registry/CONFIG-SURFACE-PROJECTION-MATRIX-v1.json",
+      "surface_class": "ledger",
+      "surface_role": "config_surface_projection_matrix",
+      "authoring_mode": "machine_mutated_controlled",
+      "authority_tier": "current_state_record",
+      "bound_families": [
+        "AF-02",
+        "AF-05",
+        "AF-07",
+        "AF-08"
+      ],
+      "conditional_families": [
+        "AF-01",
+        "AF-06"
+      ],
+      "validator_refs": [
+        "operators/validators/validate_config_surface_state.py"
+      ]
+    },
+    {
+      "surface_id": "cfgs-016",
+      "path": "orchestration/state/registry/config-surface-state-ledger.jsonl",
+      "surface_class": "ledger",
+      "surface_role": "config_surface_receipt_ledger",
+      "authoring_mode": "machine_appended",
+      "authority_tier": "append_only_record",
+      "bound_families": [
+        "AF-02",
+        "AF-05",
+        "AF-07",
+        "AF-08"
+      ],
+      "conditional_families": [
+        "AF-01",
+        "AF-06"
+      ],
+      "validator_refs": [
+        "operators/validators/validate_config_surface_state.py"
+      ]
+    },
+    {
+      "surface_id": "cfgs-017",
+      "path": "operators/validators/validate_config_surface_state.py",
+      "surface_class": "hook_policy",
+      "surface_role": "config_surface_state_validator",
+      "authoring_mode": "hand_authored_code",
+      "authority_tier": "executable_derivative",
       "bound_families": [
         "AF-02",
         "AF-05",

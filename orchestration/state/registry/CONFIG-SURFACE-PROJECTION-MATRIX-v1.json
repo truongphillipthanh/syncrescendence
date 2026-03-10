@@ -17,6 +17,23 @@
   ],
   "class_projection_rules": [
     {
+      "surface_class": "chat_ci",
+      "required_families": [
+        "AF-01",
+        "AF-02",
+        "AF-03",
+        "AF-04",
+        "AF-05",
+        "AF-06",
+        "AF-07",
+        "AF-08"
+      ],
+      "projection_form": "compressed prose blocks with render metadata and explicit omission notes",
+      "concrete_surface_ids": [
+        "cfgs-013"
+      ]
+    },
+    {
       "surface_class": "cli_constitution",
       "required_families": [
         "AF-01",
@@ -91,7 +108,8 @@
       ],
       "projection_form": "executable checks and audit emission",
       "concrete_surface_ids": [
-        "cfgs-008"
+        "cfgs-008",
+        "cfgs-017"
       ]
     },
     {
@@ -154,17 +172,39 @@
       "projection_form": "state fields, provenance joins, and append-only mutation records",
       "concrete_surface_ids": [
         "cfgs-011",
-        "cfgs-012"
+        "cfgs-012",
+        "cfgs-014",
+        "cfgs-015",
+        "cfgs-016"
       ]
     }
   ],
-  "deferred_surface_classes": [
-    {
-      "surface_class": "chat_ci",
-      "reason": "No repo-resident managed render or receipt artifact has been seeded yet for chat custom-instruction projections."
-    }
-  ],
+  "deferred_surface_classes": [],
   "surface_projection_rows": [
+    {
+      "surface_id": "cfgs-013",
+      "path": "orchestration/state/registry/CHAT-CI-RENDER-SURFACE-v1.md",
+      "surface_class": "chat_ci",
+      "projection_mode": "repo_native_derivative_render",
+      "source_refs": [
+        "knowledge/sigma/references/chat-app-custom-instructions/CANONICAL-CI-PROVENANCE-REPORT.md",
+        "knowledge/sigma/CHAT-APP-CUSTOM-INSTRUCTION-ARCHITECTURE-v1.md",
+        "knowledge/sigma/CONFIG-BEHAVIOR-ATOMS-AND-SURFACE-PROFILES-v1.md",
+        "knowledge/sigma/CONFIG-SOURCE-OF-TRUTH-ARCHITECTURE-v1.md"
+      ],
+      "families": {
+        "required": [
+          "AF-01",
+          "AF-02",
+          "AF-03",
+          "AF-04",
+          "AF-05",
+          "AF-06",
+          "AF-07",
+          "AF-08"
+        ]
+      }
+    },
     {
       "surface_id": "cfgs-001",
       "path": "AGENTS.md",
@@ -324,6 +364,28 @@
       }
     },
     {
+      "surface_id": "cfgs-017",
+      "path": "operators/validators/validate_config_surface_state.py",
+      "surface_class": "hook_policy",
+      "projection_mode": "seed_state_alignment_gate",
+      "families": {
+        "required": [
+          "AF-02",
+          "AF-05",
+          "AF-07",
+          "AF-08"
+        ],
+        "conditional": [
+          "AF-01",
+          "AF-06"
+        ],
+        "omitted": [
+          "AF-03",
+          "AF-04"
+        ]
+      }
+    },
+    {
       "surface_id": "cfgs-009",
       "path": "orchestration/state/registry/tributary-disposition-schema-v1.md",
       "surface_class": "schema",
@@ -393,6 +455,72 @@
       "path": "orchestration/state/registry/tributary-disposition-ledger.jsonl",
       "surface_class": "ledger",
       "projection_mode": "append_only_mutation_record",
+      "families": {
+        "required": [
+          "AF-02",
+          "AF-05",
+          "AF-07",
+          "AF-08"
+        ],
+        "conditional": [
+          "AF-01",
+          "AF-06"
+        ],
+        "omitted": [
+          "AF-03",
+          "AF-04"
+        ]
+      }
+    },
+    {
+      "surface_id": "cfgs-014",
+      "path": "orchestration/state/registry/CONFIG-SURFACE-REGISTRY-v1.json",
+      "surface_class": "ledger",
+      "projection_mode": "seed_current_state_registry",
+      "families": {
+        "required": [
+          "AF-02",
+          "AF-05",
+          "AF-07",
+          "AF-08"
+        ],
+        "conditional": [
+          "AF-01",
+          "AF-06"
+        ],
+        "omitted": [
+          "AF-03",
+          "AF-04"
+        ]
+      }
+    },
+    {
+      "surface_id": "cfgs-015",
+      "path": "orchestration/state/registry/CONFIG-SURFACE-PROJECTION-MATRIX-v1.json",
+      "surface_class": "ledger",
+      "projection_mode": "seed_projection_matrix_record",
+      "families": {
+        "required": [
+          "AF-02",
+          "AF-05",
+          "AF-07",
+          "AF-08"
+        ],
+        "conditional": [
+          "AF-01",
+          "AF-06"
+        ],
+        "omitted": [
+          "AF-03",
+          "AF-04"
+        ]
+      }
+    },
+    {
+      "surface_id": "cfgs-016",
+      "path": "orchestration/state/registry/config-surface-state-ledger.jsonl",
+      "surface_class": "ledger",
+      "projection_mode": "append_only_receipt_record",
       "families": {
         "required": [
           "AF-02",

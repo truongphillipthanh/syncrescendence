@@ -144,7 +144,9 @@ Therefore:
 
 This contract is immediately binding on:
 
-- future per-office office-harness metadata
-- future office-harness effective registries or rebinding ledgers
-- future office-harness coherence validators
+- per-office office-harness metadata
+- `orchestration/state/registry/office-harness-binding-ledger.jsonl`
+- `orchestration/state/registry/office-harness-bindings.effective.json`
+- `operators/validators/rematerialize_office_harness_bindings.py`
+- office-harness coherence validators
 - any exocortex or ontology surface that renders current office-harness state

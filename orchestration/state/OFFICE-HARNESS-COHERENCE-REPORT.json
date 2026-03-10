@@ -1,13 +1,13 @@
 {
   "schema_version": "office-harness-coherence-report/v1",
-  "generated_at": "2026-03-09T23:23:09Z",
+  "generated_at": "2026-03-10T03:04:12Z",
   "mode": "report-first",
   "repo_root": "/Users/system/syncrescendence",
   "summary": {
     "federal_offices_expected": 5,
     "metadata_contracts_found": 5,
-    "operative_bindings_rendered": 1,
-    "informative_only_bindings_rendered": 4,
+    "operative_bindings_rendered": 5,
+    "informative_only_bindings_rendered": 0,
     "finding_count": 0,
     "error_count": 0,
     "warning_count": 0,
@@ -78,6 +78,11 @@
       "harness_family": "claude_code",
       "avatar_label": "Commander",
       "surface_class": "repo-native-coding-harness",
+      "machine": null,
+      "provider": null,
+      "model": null,
+      "auth_mode": null,
+      "account_ref": null,
       "may_promote_to": [
         "communications",
         "executive",
@@ -111,8 +116,7 @@
       "contract_state": "operative",
       "validator_state": "clean",
       "authority_state": "operative",
-      "finding_count": 0,
-      "generated_at": "2026-03-09T23:23:09Z"
+      "finding_count": 0
     },
     {
       "office_id": "adjudicator",
@@ -126,6 +130,11 @@
       "harness_family": "codex",
       "avatar_label": "Adjudicator",
       "surface_class": "repo-native-coding-harness",
+      "machine": null,
+      "provider": null,
+      "model": null,
+      "auth_mode": null,
+      "account_ref": null,
       "may_promote_to": [
         "communications",
         "executive",
@@ -156,11 +165,10 @@
       "ratified_by_artifact_id": "OFFICE-HARNESS-BINDING-CONTRACT-v1",
       "ratified_at": "2026-03-09",
       "binding_state": "active",
-      "contract_state": "reference-specimen",
+      "contract_state": "operative",
       "validator_state": "clean",
-      "authority_state": "informative_only",
-      "finding_count": 0,
-      "generated_at": "2026-03-09T23:23:09Z"
+      "authority_state": "operative",
+      "finding_count": 0
     },
     {
       "office_id": "ajna",
@@ -174,6 +182,11 @@
       "harness_family": "openclaw",
       "avatar_label": "Ajna",
       "surface_class": "persistent-runtime",
+      "machine": "macbook-air",
+      "provider": "anthropic",
+      "model": "claude-sonnet-4-5",
+      "auth_mode": "setup-token",
+      "account_ref": "claude-subscription",
       "may_promote_to": [
         "communications",
         "executive",
@@ -208,11 +221,10 @@
       "ratified_by_artifact_id": "OFFICE-HARNESS-BINDING-CONTRACT-v1",
       "ratified_at": "2026-03-09",
       "binding_state": "active",
-      "contract_state": "reference-specimen",
+      "contract_state": "operative",
       "validator_state": "clean",
-      "authority_state": "informative_only",
-      "finding_count": 0,
-      "generated_at": "2026-03-09T23:23:09Z"
+      "authority_state": "operative",
+      "finding_count": 0
     },
     {
       "office_id": "cartographer",
@@ -226,6 +238,11 @@
       "harness_family": "gemini",
       "avatar_label": "Cartographer",
       "surface_class": "repo-native-sensing-harness",
+      "machine": null,
+      "provider": null,
+      "model": null,
+      "auth_mode": null,
+      "account_ref": null,
       "may_promote_to": [
         "communications",
         "knowledge",
@@ -256,11 +273,10 @@
       "ratified_by_artifact_id": "OFFICE-HARNESS-BINDING-CONTRACT-v1",
       "ratified_at": "2026-03-09",
       "binding_state": "active",
-      "contract_state": "reference-specimen",
+      "contract_state": "operative",
       "validator_state": "clean",
-      "authority_state": "informative_only",
-      "finding_count": 0,
-      "generated_at": "2026-03-09T23:23:09Z"
+      "authority_state": "operative",
+      "finding_count": 0
     },
     {
       "office_id": "psyche",
@@ -274,6 +290,11 @@
       "harness_family": "openclaw",
       "avatar_label": "Psyche",
       "surface_class": "persistent-runtime",
+      "machine": "mac-mini",
+      "provider": "openai-codex",
+      "model": "gpt-5.3-codex",
+      "auth_mode": "oauth",
+      "account_ref": "chatgpt-plus",
       "may_promote_to": [
         "communications",
         "program",
@@ -308,11 +329,10 @@
       "ratified_by_artifact_id": "OFFICE-HARNESS-BINDING-CONTRACT-v1",
       "ratified_at": "2026-03-09",
       "binding_state": "active",
-      "contract_state": "reference-specimen",
+      "contract_state": "operative",
       "validator_state": "clean",
-      "authority_state": "informative_only",
-      "finding_count": 0,
-      "generated_at": "2026-03-09T23:23:09Z"
+      "authority_state": "operative",
+      "finding_count": 0
     }
   ],
   "findings": []

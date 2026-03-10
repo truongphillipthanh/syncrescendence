@@ -33,3 +33,4 @@ Convert the newly seeded office-harness and config-surface families into true re
 
 - [CAMPAIGN-05-TYPED-MIDDLE-LAYER-OPERATIONALIZATION-SYNTHESIS-v1.md](/Users/system/syncrescendence/orchestration/state/impl/CAMPAIGN-05-TYPED-MIDDLE-LAYER-OPERATIONALIZATION-SYNTHESIS-v1.md)
 - [LIVE-LEDGER-ROLLOUT-GATES-v1.md](/Users/system/syncrescendence/orchestration/state/impl/LIVE-LEDGER-ROLLOUT-GATES-v1.md)
+- [CAMPAIGN-06-APPEND-ONLY-FAMILY-OPERATIONALIZATION-SYNTHESIS-v1.md](/Users/system/syncrescendence/orchestration/state/impl/CAMPAIGN-06-APPEND-ONLY-FAMILY-OPERATIONALIZATION-SYNTHESIS-v1.md)

@@ -1,0 +1,23 @@
+{
+  "summary": {
+    "generated_at": "2026-03-10T03:04:12Z",
+    "status": "PASS",
+    "registry": "orchestration/state/registry/CONFIG-SURFACE-REGISTRY-v1.json",
+    "projection_matrix": "orchestration/state/registry/CONFIG-SURFACE-PROJECTION-MATRIX-v1.json",
+    "ledger": "orchestration/state/registry/config-surface-state-ledger.jsonl",
+    "registry_id": "config-surface-registry-v1",
+    "matrix_id": "config-surface-projection-matrix-v1",
+    "atom_families": 8,
+    "surface_classes": 8,
+    "concrete_surfaces": 17,
+    "class_projection_rules": 8,
+    "surface_projection_rows": 17,
+    "receipt_events": 1,
+    "latest_receipt_event_id": "csl-20260310-0001",
+    "alignment_status": "current_matches_latest_receipt",
+    "registry_sha256": "sha256:870704570d8f8a2321736543291ac7f47e37cb7a84dc59875a0967ecef57735d",
+    "projection_matrix_sha256": "sha256:c52e73ea7c2d73b30d17b6a5a7b82ddb3e9ca649eb9f0cbb880ed754192709dd",
+    "findings": 0
+  },
+  "findings": []
+}

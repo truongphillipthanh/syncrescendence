@@ -333,6 +333,8 @@ The project has already completed:
 - correction of the first office-harness specimen so it now points to binding law rather than to prior response lineage
 - first widening of the typed middle layer into validators, subordinate registries, multi-office metadata, config-surface seed state, and live-ledger gate language
 - completion of the tributary authority transition from structural proof to explicit `authority_bound` compatibility treatment
+- conversion of `office_harness_state` into a true repo-native proof family with append-only substrate and rematerialization
+- opening of the first repo-native `chat_ci` projection foothold without widening into hidden provider sovereignty
 
 It is now entering the next phase:
 
@@ -345,6 +347,7 @@ It is now entering the next phase:
 - direct ratification of the typed middle layer so configuration, ledger growth, and office-harness binding stop relying on implicit doctrine
 - operationalization of that typed middle layer through validators, subordinate registries, compatibility receipts, multi-office metadata, and first widening artifacts
 - conversion of current-state seed families into append-only repo-native proof families with deterministic rematerialization before larger exocortex projection widening
+- first narrow exocortex-facing projection wave for proof-ready families, while non-ready families continue proof uplift instead of premature widening
 
 This is the phase where the system has crossed from shell design into shell enforcement and controlled proof.
 
