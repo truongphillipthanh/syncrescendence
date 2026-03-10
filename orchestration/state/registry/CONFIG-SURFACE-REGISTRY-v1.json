@@ -71,7 +71,7 @@
   "surface_classes": [
     {
       "surface_class": "chat_ci",
-      "seed_status": "seeded_repo_native_render",
+      "seed_status": "seeded_repo_native_render_and_provider_profiles",
       "authority_mode": "witness_corpus_or_rendered_derivative",
       "required_families": [
         "AF-01",
@@ -83,7 +83,7 @@
         "AF-07",
         "AF-08"
       ],
-      "seed_note": "Seeded through one repo-native render surface that compresses the witness corpus and config kernel without asserting any provider-specific runtime export."
+      "seed_note": "Seeded through one repo-native render surface plus provider-aware profile and packing artifacts that stay derivative of the witness corpus and config kernel without asserting any provider-specific runtime export."
     },
     {
       "surface_class": "cli_constitution",
@@ -469,6 +469,62 @@
       ]
     },
     {
+      "surface_id": "cfgs-018",
+      "path": "orchestration/state/registry/CHAT-CI-PROVIDER-PROFILES-v1.json",
+      "surface_class": "chat_ci",
+      "surface_role": "provider_profile_registry",
+      "authoring_mode": "hand_authored_structured_derivative",
+      "authority_tier": "rendered_derivative",
+      "bound_families": [
+        "AF-01",
+        "AF-02",
+        "AF-03",
+        "AF-04",
+        "AF-05",
+        "AF-06",
+        "AF-07",
+        "AF-08"
+      ],
+      "source_refs": [
+        "orchestration/state/registry/CHAT-CI-RENDER-SURFACE-v1.md",
+        "knowledge/sigma/references/chat-app-custom-instructions/CANONICAL-CI-PROVENANCE-REPORT.md",
+        "knowledge/sigma/references/chat-app-custom-instructions/custom_instructions-chatgpt.md",
+        "knowledge/sigma/references/chat-app-custom-instructions/custom_instructions-claude.md",
+        "knowledge/sigma/references/chat-app-custom-instructions/custom_instructions-grok.md",
+        "knowledge/sigma/references/chat-app-custom-instructions/custom_instructions-grok-agents.md",
+        "knowledge/sigma/references/chat-app-custom-instructions/custom_instructions-gemini_web_app.md",
+        "knowledge/sigma/references/chat-app-custom-instructions/custom_instructions-gemini_ai_studio.md",
+        "knowledge/sigma/CHAT-APP-CUSTOM-INSTRUCTION-ARCHITECTURE-v1.md",
+        "knowledge/sigma/CONFIG-BEHAVIOR-ATOMS-AND-SURFACE-PROFILES-v1.md",
+        "knowledge/sigma/CONFIG-SOURCE-OF-TRUTH-ARCHITECTURE-v1.md"
+      ]
+    },
+    {
+      "surface_id": "cfgs-019",
+      "path": "orchestration/state/registry/CHAT-CI-PROJECTION-PACK-v1.json",
+      "surface_class": "chat_ci",
+      "surface_role": "projection_ready_packing_manifest",
+      "authoring_mode": "hand_authored_structured_derivative",
+      "authority_tier": "rendered_derivative",
+      "bound_families": [
+        "AF-01",
+        "AF-02",
+        "AF-03",
+        "AF-04",
+        "AF-05",
+        "AF-06",
+        "AF-07",
+        "AF-08"
+      ],
+      "source_refs": [
+        "orchestration/state/registry/CHAT-CI-PROVIDER-PROFILES-v1.json",
+        "orchestration/state/registry/CHAT-CI-RENDER-SURFACE-v1.md",
+        "knowledge/sigma/CHAT-APP-CUSTOM-INSTRUCTION-ARCHITECTURE-v1.md",
+        "knowledge/sigma/CONFIG-BEHAVIOR-ATOMS-AND-SURFACE-PROFILES-v1.md",
+        "knowledge/sigma/CONFIG-SOURCE-OF-TRUTH-ARCHITECTURE-v1.md"
+      ]
+    },
+    {
       "surface_id": "cfgs-014",
       "path": "orchestration/state/registry/CONFIG-SURFACE-REGISTRY-v1.json",
       "surface_class": "ledger",
@@ -514,7 +570,7 @@
       "surface_id": "cfgs-016",
       "path": "orchestration/state/registry/config-surface-state-ledger.jsonl",
       "surface_class": "ledger",
-      "surface_role": "config_surface_receipt_ledger",
+      "surface_role": "config_surface_state_ledger",
       "authoring_mode": "machine_appended",
       "authority_tier": "append_only_record",
       "bound_families": [
@@ -536,6 +592,24 @@
       "path": "operators/validators/validate_config_surface_state.py",
       "surface_class": "hook_policy",
       "surface_role": "config_surface_state_validator",
+      "authoring_mode": "hand_authored_code",
+      "authority_tier": "executable_derivative",
+      "bound_families": [
+        "AF-02",
+        "AF-05",
+        "AF-07",
+        "AF-08"
+      ],
+      "conditional_families": [
+        "AF-01",
+        "AF-06"
+      ]
+    },
+    {
+      "surface_id": "cfgs-020",
+      "path": "operators/validators/rematerialize_config_surface_state.py",
+      "surface_class": "hook_policy",
+      "surface_role": "config_surface_state_rematerializer",
       "authoring_mode": "hand_authored_code",
       "authority_tier": "executable_derivative",
       "bound_families": [

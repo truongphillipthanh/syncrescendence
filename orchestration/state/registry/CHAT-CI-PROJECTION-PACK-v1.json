@@ -1,0 +1,294 @@
+{
+  "pack_set_id": "chat-ci-projection-pack-v1",
+  "surface_class": "chat_ci",
+  "status": "projection_ready",
+  "effective_date": "2026-03-10",
+  "actor": "codex_parallel_session",
+  "authority_statement": "This artifact maps the repo-native chat_ci semantic kernel into provider-facing packing units and slot assignments. It is a projection-ready packing manifest, not a rendered export or synchronization mechanism.",
+  "source_bindings": {
+    "provider_profiles": [
+      "orchestration/state/registry/CHAT-CI-PROVIDER-PROFILES-v1.json"
+    ],
+    "generic_render_surface": [
+      "orchestration/state/registry/CHAT-CI-RENDER-SURFACE-v1.md"
+    ],
+    "config_kernel": [
+      "knowledge/sigma/CHAT-APP-CUSTOM-INSTRUCTION-ARCHITECTURE-v1.md",
+      "knowledge/sigma/CONFIG-BEHAVIOR-ATOMS-AND-SURFACE-PROFILES-v1.md",
+      "knowledge/sigma/CONFIG-SOURCE-OF-TRUTH-ARCHITECTURE-v1.md"
+    ]
+  },
+  "pack_units": [
+    {
+      "pack_unit_id": "cpu-001",
+      "semantic_unit": "behavior_kernel",
+      "native_form": "compressed_prose",
+      "required_families": [
+        "AF-01",
+        "AF-02",
+        "AF-03",
+        "AF-04",
+        "AF-05"
+      ],
+      "conditional_families": [
+        "AF-07"
+      ],
+      "source_refs": [
+        "orchestration/state/registry/CHAT-CI-RENDER-SURFACE-v1.md"
+      ],
+      "notes": "Derived from the rendered behavior block: response calibration, epistemic separation, pushback posture, direct prose, and anti-pattern suppression."
+    },
+    {
+      "pack_unit_id": "cpu-002",
+      "semantic_unit": "operator_scaffold",
+      "native_form": "compressed_prose",
+      "required_families": [
+        "AF-06"
+      ],
+      "conditional_families": [
+        "AF-01",
+        "AF-07"
+      ],
+      "source_refs": [
+        "orchestration/state/registry/CHAT-CI-RENDER-SURFACE-v1.md"
+      ],
+      "notes": "Derived from the rendered operator scaffold block: architecture-first cognition, minimal clarifying questions, strong reasonable assumptions, and repo-externalized continuity."
+    },
+    {
+      "pack_unit_id": "cpu-003",
+      "semantic_unit": "anti_pattern_fence",
+      "native_form": "prose_or_list",
+      "required_families": [
+        "AF-02",
+        "AF-05",
+        "AF-08"
+      ],
+      "source_refs": [
+        "orchestration/state/registry/CHAT-CI-RENDER-SURFACE-v1.md",
+        "knowledge/sigma/references/chat-app-custom-instructions/CANONICAL-CI-PROVENANCE-REPORT.md"
+      ],
+      "notes": "Preserves the recurring no-go patterns and explicit omission discipline under compression."
+    },
+    {
+      "pack_unit_id": "cpu-004",
+      "semantic_unit": "repo_sovereignty_stub",
+      "native_form": "terse_pointer",
+      "required_families": [
+        "AF-07",
+        "AF-08"
+      ],
+      "source_refs": [
+        "knowledge/sigma/CONFIG-SOURCE-OF-TRUTH-ARCHITECTURE-v1.md"
+      ],
+      "notes": "Short provenance or continuity pointer used only where the host surface can carry it without crowding out higher-priority behavioral content."
+    },
+    {
+      "pack_unit_id": "cpu-005",
+      "semantic_unit": "claude_mode_architecture",
+      "native_form": "typed_sections",
+      "required_families": [
+        "AF-01",
+        "AF-02",
+        "AF-03",
+        "AF-04",
+        "AF-05",
+        "AF-06",
+        "AF-07",
+        "AF-08"
+      ],
+      "source_refs": [
+        "knowledge/sigma/references/chat-app-custom-instructions/custom_instructions-claude.md"
+      ],
+      "notes": "Claude-specific mode and protocol structure that can stay typed because the surface tolerates a richer constitutional block."
+    },
+    {
+      "pack_unit_id": "cpu-006",
+      "semantic_unit": "grok_agent_amplifier",
+      "native_form": "agent_specialization_block",
+      "required_families": [
+        "AF-03",
+        "AF-06",
+        "AF-08"
+      ],
+      "conditional_families": [
+        "AF-01",
+        "AF-02"
+      ],
+      "source_refs": [
+        "knowledge/sigma/references/chat-app-custom-instructions/custom_instructions-grok-agents.md"
+      ],
+      "notes": "Mission-specific Grok agent blocks that amplify evidence, innovation, or praxis without becoming parallel constitutions."
+    },
+    {
+      "pack_unit_id": "cpu-007",
+      "semantic_unit": "gemini_synthesis_directives",
+      "native_form": "xml_subtree",
+      "required_families": [
+        "AF-01",
+        "AF-02",
+        "AF-03",
+        "AF-06"
+      ],
+      "conditional_families": [
+        "AF-04",
+        "AF-08"
+      ],
+      "source_refs": [
+        "knowledge/sigma/references/chat-app-custom-instructions/custom_instructions-gemini_ai_studio.md"
+      ],
+      "notes": "Gemini AI Studio-specific synthesis directives for cross-disciplinary bridging, mechanistic depth, and labeled speculation."
+    }
+  ],
+  "provider_pack_rows": [
+    {
+      "provider_id": "chatgpt",
+      "state": "projection_ready_manual_export_only",
+      "slot_packs": [
+        {
+          "slot_id": "field_1",
+          "pack_unit_ids": [
+            "cpu-001",
+            "cpu-003"
+          ],
+          "packing_order": [
+            "AF-02",
+            "AF-05",
+            "AF-01",
+            "AF-03",
+            "AF-04",
+            "AF-07",
+            "AF-08"
+          ]
+        },
+        {
+          "slot_id": "field_2",
+          "pack_unit_ids": [
+            "cpu-002",
+            "cpu-004"
+          ],
+          "packing_order": [
+            "AF-06",
+            "AF-07",
+            "AF-01"
+          ]
+        }
+      ]
+    },
+    {
+      "provider_id": "claude",
+      "state": "projection_ready_manual_export_only",
+      "slot_packs": [
+        {
+          "slot_id": "personal_preferences",
+          "pack_unit_ids": [
+            "cpu-001",
+            "cpu-002",
+            "cpu-003",
+            "cpu-004",
+            "cpu-005"
+          ],
+          "packing_order": [
+            "AF-01",
+            "AF-02",
+            "AF-03",
+            "AF-04",
+            "AF-05",
+            "AF-06",
+            "AF-07",
+            "AF-08"
+          ]
+        }
+      ]
+    },
+    {
+      "provider_id": "grok",
+      "state": "projection_ready_manual_export_only",
+      "slot_packs": [
+        {
+          "slot_id": "global_foundation",
+          "pack_unit_ids": [
+            "cpu-001",
+            "cpu-002",
+            "cpu-003",
+            "cpu-004"
+          ],
+          "packing_order": [
+            "AF-02",
+            "AF-03",
+            "AF-05",
+            "AF-01",
+            "AF-06",
+            "AF-07",
+            "AF-08",
+            "AF-04"
+          ]
+        },
+        {
+          "slot_id": "named_agents",
+          "pack_unit_ids": [
+            "cpu-006"
+          ],
+          "packing_order": [
+            "AF-03",
+            "AF-06",
+            "AF-08",
+            "AF-01",
+            "AF-02"
+          ]
+        }
+      ]
+    },
+    {
+      "provider_id": "gemini_web_app",
+      "state": "projection_ready_manual_export_only",
+      "slot_packs": [
+        {
+          "slot_id": "snippet_sequence",
+          "pack_unit_ids": [
+            "cpu-001",
+            "cpu-002",
+            "cpu-003",
+            "cpu-004"
+          ],
+          "packing_order": [
+            "AF-04",
+            "AF-01",
+            "AF-02",
+            "AF-03",
+            "AF-06",
+            "AF-05",
+            "AF-07",
+            "AF-08"
+          ],
+          "notes": "Expected snippet order: voice, depth, reasoning, cognitive profile, anti-pattern reserve."
+        }
+      ]
+    },
+    {
+      "provider_id": "gemini_ai_studio",
+      "state": "projection_ready_manual_export_only",
+      "slot_packs": [
+        {
+          "slot_id": "system_instruction",
+          "pack_unit_ids": [
+            "cpu-001",
+            "cpu-002",
+            "cpu-003",
+            "cpu-004",
+            "cpu-007"
+          ],
+          "packing_order": [
+            "AF-01",
+            "AF-02",
+            "AF-03",
+            "AF-06",
+            "AF-04",
+            "AF-05",
+            "AF-07",
+            "AF-08"
+          ]
+        }
+      ]
+    }
+  ]
+}

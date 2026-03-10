@@ -1,0 +1,215 @@
+{
+  "profile_set_id": "chat-ci-provider-profiles-v1",
+  "surface_class": "chat_ci",
+  "status": "seeded_provider_profiles",
+  "effective_date": "2026-03-10",
+  "actor": "codex_parallel_session",
+  "authority_statement": "This artifact is a repo-native derivative of the witness corpus, the generic chat_ci render surface, and the config kernel. It defines provider-aware packing boundaries without becoming a vendor-runtime export or a new sovereign source.",
+  "source_bindings": {
+    "generic_render_surface": [
+      "orchestration/state/registry/CHAT-CI-RENDER-SURFACE-v1.md"
+    ],
+    "witness_corpus": [
+      "knowledge/sigma/references/chat-app-custom-instructions/CANONICAL-CI-PROVENANCE-REPORT.md",
+      "knowledge/sigma/references/chat-app-custom-instructions/custom_instructions-chatgpt.md",
+      "knowledge/sigma/references/chat-app-custom-instructions/custom_instructions-claude.md",
+      "knowledge/sigma/references/chat-app-custom-instructions/custom_instructions-grok.md",
+      "knowledge/sigma/references/chat-app-custom-instructions/custom_instructions-grok-agents.md",
+      "knowledge/sigma/references/chat-app-custom-instructions/custom_instructions-gemini_web_app.md",
+      "knowledge/sigma/references/chat-app-custom-instructions/custom_instructions-gemini_ai_studio.md"
+    ],
+    "config_kernel": [
+      "knowledge/sigma/CHAT-APP-CUSTOM-INSTRUCTION-ARCHITECTURE-v1.md",
+      "knowledge/sigma/CONFIG-BEHAVIOR-ATOMS-AND-SURFACE-PROFILES-v1.md",
+      "knowledge/sigma/CONFIG-SOURCE-OF-TRUTH-ARCHITECTURE-v1.md"
+    ]
+  },
+  "global_constraints": {
+    "repo_resident_only": true,
+    "manual_export_only": true,
+    "automation_scope": "No provider UI sync or full export automation is ratified by this artifact.",
+    "projection_rule": "Semantic fidelity to AF-01 through AF-08 outranks lexical reuse of provider witness wording."
+  },
+  "provider_profiles": [
+    {
+      "provider_id": "chatgpt",
+      "provider_surface": "chatgpt_custom_instructions",
+      "witness_refs": [
+        "knowledge/sigma/references/chat-app-custom-instructions/custom_instructions-chatgpt.md"
+      ],
+      "packing_model": "two_field_split",
+      "projection_ready": true,
+      "native_slots": [
+        {
+          "slot_id": "field_1",
+          "slot_name": "Custom Instructions",
+          "semantic_role": "behavior_contract",
+          "budget_hint_chars": 1500,
+          "required_families": [
+            "AF-01",
+            "AF-02",
+            "AF-03",
+            "AF-04",
+            "AF-05"
+          ],
+          "conditional_families": [
+            "AF-07",
+            "AF-08"
+          ],
+          "packing_notes": "Lead with response calibration, epistemic discipline, completion pressure, and anti-pattern blocks."
+        },
+        {
+          "slot_id": "field_2",
+          "slot_name": "More About You",
+          "semantic_role": "operator_scaffold",
+          "budget_hint_chars": 1500,
+          "required_families": [
+            "AF-06",
+            "AF-07"
+          ],
+          "conditional_families": [
+            "AF-01",
+            "AF-03"
+          ],
+          "packing_notes": "Carry cognitive profile, project continuity, and architectural processing guidance without repeating the whole behavior contract."
+        }
+      ],
+      "omission_discipline": "Any budget-driven omission must be declared in repo receipts before a human copies a packed derivative into the provider UI."
+    },
+    {
+      "provider_id": "claude",
+      "provider_surface": "claude_user_preferences",
+      "witness_refs": [
+        "knowledge/sigma/references/chat-app-custom-instructions/custom_instructions-claude.md"
+      ],
+      "packing_model": "single_constitutional_block",
+      "projection_ready": true,
+      "native_slots": [
+        {
+          "slot_id": "personal_preferences",
+          "slot_name": "Personal Preferences",
+          "semantic_role": "rich_constitutional_block",
+          "budget_hint": "large preference block",
+          "required_families": [
+            "AF-01",
+            "AF-02",
+            "AF-03",
+            "AF-04",
+            "AF-05",
+            "AF-06",
+            "AF-07",
+            "AF-08"
+          ],
+          "packing_notes": "Claude can hold the full constitutional stack, but the profile remains compression-aware and should preserve XML or typed section boundaries when those boundaries improve enforcement."
+        }
+      ],
+      "omission_discipline": "Compression pressure is low on this surface; omission is lawful only when the same family is structurally encoded elsewhere and that substitution is explicit."
+    },
+    {
+      "provider_id": "grok",
+      "provider_surface": "grok_global_plus_named_agents",
+      "witness_refs": [
+        "knowledge/sigma/references/chat-app-custom-instructions/custom_instructions-grok.md",
+        "knowledge/sigma/references/chat-app-custom-instructions/custom_instructions-grok-agents.md"
+      ],
+      "packing_model": "global_foundation_plus_agent_amplifiers",
+      "projection_ready": true,
+      "native_slots": [
+        {
+          "slot_id": "global_foundation",
+          "slot_name": "Global Instructions",
+          "semantic_role": "behavioral_foundation",
+          "budget_hint_chars": 4000,
+          "required_families": [
+            "AF-01",
+            "AF-02",
+            "AF-03",
+            "AF-04",
+            "AF-05",
+            "AF-06"
+          ],
+          "conditional_families": [
+            "AF-07",
+            "AF-08"
+          ],
+          "packing_notes": "Global space carries the stable behavioral foundation, evidence posture, verbosity calibration, and anti-pattern fence."
+        },
+        {
+          "slot_id": "named_agents",
+          "slot_name": "Named Agents",
+          "semantic_role": "mission_amplifiers",
+          "required_families": [
+            "AF-03",
+            "AF-06",
+            "AF-08"
+          ],
+          "conditional_families": [
+            "AF-01",
+            "AF-02",
+            "AF-07"
+          ],
+          "packing_notes": "Agent blocks amplify narrow mission types such as evidence, innovation, and praxis; they do not restate the entire constitution."
+        }
+      ],
+      "omission_discipline": "Provider-local mission agent text may specialize, but any loss of a global family must be compensated by the global foundation slot rather than hidden inside an agent."
+    },
+    {
+      "provider_id": "gemini_web_app",
+      "provider_surface": "gemini_web_app_saved_info",
+      "witness_refs": [
+        "knowledge/sigma/references/chat-app-custom-instructions/custom_instructions-gemini_web_app.md"
+      ],
+      "packing_model": "multi_snippet_sequence",
+      "projection_ready": true,
+      "native_slots": [
+        {
+          "slot_id": "snippet_sequence",
+          "slot_name": "Saved Information Snippets",
+          "semantic_role": "ordered_behavior_snippets",
+          "required_families": [
+            "AF-01",
+            "AF-02",
+            "AF-03",
+            "AF-04",
+            "AF-05",
+            "AF-06"
+          ],
+          "conditional_families": [
+            "AF-07",
+            "AF-08"
+          ],
+          "packing_notes": "Use an ordered snippet set: voice and output shape, depth calibration, reasoning and collaboration, cognitive profile, then anti-pattern reserve."
+        }
+      ],
+      "omission_discipline": "Because the web app is snippet-constrained, AF-07 and AF-08 may remain terse, but the omission or compression must stay visible in repo packing receipts."
+    },
+    {
+      "provider_id": "gemini_ai_studio",
+      "provider_surface": "gemini_ai_studio_system_instruction",
+      "witness_refs": [
+        "knowledge/sigma/references/chat-app-custom-instructions/custom_instructions-gemini_ai_studio.md"
+      ],
+      "packing_model": "xml_system_instruction",
+      "projection_ready": true,
+      "native_slots": [
+        {
+          "slot_id": "system_instruction",
+          "slot_name": "System Instruction",
+          "semantic_role": "xml_constitution_plus_synthesis_directives",
+          "required_families": [
+            "AF-01",
+            "AF-02",
+            "AF-03",
+            "AF-04",
+            "AF-05",
+            "AF-06",
+            "AF-07",
+            "AF-08"
+          ],
+          "packing_notes": "Retain XML segmentation because it aligns with the provider-native steering grain and supports explicit grounding and synthesis directives."
+        }
+      ],
+      "omission_discipline": "This surface can carry the full family set; omission is exceptional and must be explicitly ledgered upstream."
+    }
+  ]
+}

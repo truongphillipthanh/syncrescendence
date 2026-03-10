@@ -258,6 +258,53 @@ The shell therefore needs a typed middle layer between high doctrine and low pro
 
 Without that middle layer, the system oscillates between overstuffed constitutions and under-specified local surfaces.
 
+### 4.14 Proof Families And Asymmetric Widening
+
+The shell should increasingly treat major live state surfaces as proof families with explicit maturity phases rather than as undifferentiated "state."
+
+That means distinguishing at minimum:
+
+- lawful seed
+- repo-native proof family
+- family-default-ready state
+- projection-open state
+
+Not every family reaches each phase at the same time.
+The shell must allow asymmetric advancement:
+
+- one family may remain repo-native proof only
+- another may become outward-facing and projection-open
+- a third may remain an internal derivative family without its own exocortex widening
+
+Acceleration is lawful only when widening respects that asymmetry.
+Projection should follow maturity.
+It must not flatten maturity.
+
+### 4.15 Derivative Projection Governance
+
+As proof families mature, the shell must govern derivative widening explicitly.
+
+Repo-native proof remains sovereign.
+Projection families remain:
+
+- derivative
+- pointer-carrying
+- replaceable
+- subordinate to the family and law that generated them
+
+This includes exocortex-facing control-plane surfaces, provider packs, dashboards, reports, and future ontology projections.
+
+The project therefore needs portfolio-level governance for widening:
+
+- family register and gate discipline
+- phase advancement receipts
+- derivative-family validators
+- append-only mutation history where widening becomes operationally meaningful
+- explicit prohibition on hidden second control planes
+
+The strategic aim is not to avoid widening.
+It is to widen without sovereignty leakage.
+
 ## 5. System Boundary
 
 The project currently recognizes three major macro layers:

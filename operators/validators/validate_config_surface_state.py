@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Report-only validator for config-surface seed state and receipt-ledger joins."""
+"""Report-only validator for config-surface state, receipt-ledger joins, and rebuild parity."""
 
 from __future__ import annotations
 
@@ -11,6 +11,12 @@ from dataclasses import asdict, dataclass
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
+
+from rematerialize_config_surface_state import (
+    canonical_json_bytes,
+    load_events as load_rematerialization_events,
+    rematerialize as rematerialize_config_surface_state,
+)
 
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
@@ -26,6 +32,7 @@ EXPECTED_MATRIX_ID = "config-surface-projection-matrix-v1"
 EXPECTED_LEDGER_FAMILY = "config_surface_state"
 EXPECTED_LEDGER_PATH = "orchestration/state/registry/config-surface-state-ledger.jsonl"
 EXPECTED_VALIDATOR_PATH = "operators/validators/validate_config_surface_state.py"
+EXPECTED_REMATERIALIZER_PATH = "operators/validators/rematerialize_config_surface_state.py"
 EXPECTED_EVENT_TYPES = {"seed_receipt", "receipt_refresh", "drift_receipt", "supersession_receipt"}
 TIMESTAMP_RE = re.compile(r"^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z$")
 SHA256_RE = re.compile(r"^sha256:[0-9a-f]{64}$")
@@ -349,6 +356,7 @@ def validate_concrete_surfaces(
         repo_rel(DEFAULT_MATRIX),
         EXPECTED_LEDGER_PATH,
         EXPECTED_VALIDATOR_PATH,
+        EXPECTED_REMATERIALIZER_PATH,
     }
     missing_required = sorted(required_paths - registry_paths)
     for required_path in missing_required:
@@ -461,6 +469,38 @@ def validate_ledger_alignment(
     return "current_matches_latest_receipt", latest_id
 
 
+def validate_rematerialization(
+    ledger_path: Path,
+    registry: dict[str, Any],
+    matrix: dict[str, Any],
+    findings: list[Finding],
+) -> tuple[str, str | None]:
+    try:
+        materialized_state = rematerialize_config_surface_state(load_rematerialization_events(ledger_path))
+    except ValueError as exc:
+        for message in str(exc).splitlines():
+            add_finding(findings, "rematerialization", message)
+        return "missing_or_invalid_materialization", None
+
+    if canonical_json_bytes(materialized_state.registry) != canonical_json_bytes(registry):
+        add_finding(
+            findings,
+            "rematerialization.registry",
+            "rematerialized registry does not match the committed CONFIG-SURFACE-REGISTRY-v1.json payload",
+        )
+        return "rebuild_mismatch", materialized_state.event_id
+
+    if canonical_json_bytes(materialized_state.projection_matrix) != canonical_json_bytes(matrix):
+        add_finding(
+            findings,
+            "rematerialization.projection_matrix",
+            "rematerialized projection matrix does not match the committed CONFIG-SURFACE-PROJECTION-MATRIX-v1.json payload",
+        )
+        return "rebuild_mismatch", materialized_state.event_id
+
+    return "rebuild_matches_latest_materialization", materialized_state.event_id
+
+
 def write_reports(
     *,
     registry_path: Path,
@@ -473,6 +513,8 @@ def write_reports(
     matrix_sha256: str,
     alignment_status: str,
     latest_receipt_event_id: str | None,
+    rematerialization_status: str,
+    latest_materialization_event_id: str | None,
     findings: list[Finding],
     md_report: Path,
     json_report: Path,
@@ -503,6 +545,8 @@ def write_reports(
         "receipt_events": len(events),
         "latest_receipt_event_id": latest_receipt_event_id,
         "alignment_status": alignment_status,
+        "latest_materialization_event_id": latest_materialization_event_id,
+        "rematerialization_status": rematerialization_status,
         "registry_sha256": registry_sha256,
         "projection_matrix_sha256": matrix_sha256,
         "findings": len(findings),
@@ -513,7 +557,7 @@ def write_reports(
     lines = [
         "# Config-Surface State Validation Report",
         "",
-        "Report-only validation of config-surface seed-state structure, projection joins, required self-registration, and receipt-ledger alignment.",
+        "Report-only validation of config-surface structure, projection joins, required self-registration, receipt-ledger alignment, and rematerialization parity.",
         "",
         "## Summary",
         "",
@@ -528,6 +572,8 @@ def write_reports(
         f"- receipt events: {summary['receipt_events']}",
         f"- latest receipt event: `{latest_receipt_event_id or 'none'}`",
         f"- alignment status: `{alignment_status}`",
+        f"- latest materialization event: `{latest_materialization_event_id or 'none'}`",
+        f"- rematerialization status: `{rematerialization_status}`",
         f"- findings: {summary['findings']}",
         f"- status: `{status}`",
         "",
@@ -570,6 +616,12 @@ def main() -> int:
     matrix_sha256 = sha256_for_file(args.projection_matrix) if args.projection_matrix.exists() else "sha256:" + "0" * 64
     events = parse_ledger(args.ledger, findings)
     alignment_status, latest_receipt_event_id = validate_ledger_alignment(events, registry_sha256, matrix_sha256, findings)
+    rematerialization_status, latest_materialization_event_id = validate_rematerialization(
+        args.ledger,
+        registry,
+        matrix,
+        findings,
+    )
 
     args.md_report.parent.mkdir(parents=True, exist_ok=True)
     args.json_report.parent.mkdir(parents=True, exist_ok=True)
@@ -584,6 +636,8 @@ def main() -> int:
         matrix_sha256=matrix_sha256,
         alignment_status=alignment_status,
         latest_receipt_event_id=latest_receipt_event_id,
+        rematerialization_status=rematerialization_status,
+        latest_materialization_event_id=latest_materialization_event_id,
         findings=findings,
         md_report=args.md_report,
         json_report=args.json_report,

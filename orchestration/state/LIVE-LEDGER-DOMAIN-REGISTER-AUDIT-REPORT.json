@@ -1,0 +1,101 @@
+{
+  "schema_version": "live-ledger-domain-register-audit-report/v1",
+  "generated_at": "2026-03-10T06:35:20Z",
+  "mode": "report-first",
+  "repo_root": "/Users/system/syncrescendence",
+  "summary": {
+    "status": "PASS",
+    "register": "orchestration/state/registry/live-ledger-domain-register.csv",
+    "rows": 3,
+    "coherent_rows": 3,
+    "finding_count": 0,
+    "error_count": 0,
+    "warning_count": 0,
+    "phase_drift_count": 0,
+    "append_only_drift_count": 0,
+    "note_drift_count": 0
+  },
+  "records": [
+    {
+      "domain_id": "tributary_disposition",
+      "domain_label": "Tributary disposition proof",
+      "claimed_rollout_state": "phase1_repo_proof",
+      "expected_rollout_state": "phase1_repo_proof",
+      "claimed_domain_status": "active_family",
+      "expected_domain_status": "active_family",
+      "gate_profile": "GL-TRIBUTARY-V1",
+      "sovereign_artifact_path": "orchestration/state/registry/tributary-disposition-schema-v1.md",
+      "sovereign_artifact_exists": true,
+      "current_state_surface": "orchestration/state/registry/tributary-disposition-registry.csv",
+      "current_state_surface_exists": true,
+      "claimed_append_only_surface": "orchestration/state/registry/tributary-disposition-ledger.jsonl",
+      "claimed_append_only_surface_exists": true,
+      "actual_append_only_surface": "orchestration/state/registry/tributary-disposition-ledger.jsonl",
+      "actual_append_only_surface_exists": true,
+      "materialization_law_paths": [],
+      "materialization_operator_paths": [],
+      "proof_support": true,
+      "evidence_summary": "append-only ledger, compatibility receipt, and PASS validator report",
+      "finding_count": 0,
+      "warning_count": 0,
+      "error_count": 0
+    },
+    {
+      "domain_id": "office_harness_state",
+      "domain_label": "Office harness state",
+      "claimed_rollout_state": "phase1_repo_proof",
+      "expected_rollout_state": "phase1_repo_proof",
+      "claimed_domain_status": "active_family",
+      "expected_domain_status": "active_family",
+      "gate_profile": "GL-SHARED-V1",
+      "sovereign_artifact_path": "orchestration/state/impl/OFFICE-HARNESS-BINDING-CONTRACT-v1.md",
+      "sovereign_artifact_exists": true,
+      "current_state_surface": "orchestration/state/registry/office-harness-bindings.effective.json",
+      "current_state_surface_exists": true,
+      "claimed_append_only_surface": "orchestration/state/registry/office-harness-binding-ledger.jsonl",
+      "claimed_append_only_surface_exists": true,
+      "actual_append_only_surface": "orchestration/state/registry/office-harness-binding-ledger.jsonl",
+      "actual_append_only_surface_exists": true,
+      "materialization_law_paths": [
+        "orchestration/state/impl/OFFICE-HARNESS-LEDGER-REMATERIALIZATION-v1.md"
+      ],
+      "materialization_operator_paths": [
+        "operators/validators/rematerialize_office_harness_bindings.py"
+      ],
+      "proof_support": true,
+      "evidence_summary": "append-only ledger, rematerialization law, rematerializer, and coherent report",
+      "finding_count": 0,
+      "warning_count": 0,
+      "error_count": 0
+    },
+    {
+      "domain_id": "config_surface_state",
+      "domain_label": "Config surface state",
+      "claimed_rollout_state": "phase1_repo_proof",
+      "expected_rollout_state": "phase1_repo_proof",
+      "claimed_domain_status": "active_family",
+      "expected_domain_status": "active_family",
+      "gate_profile": "GL-SHARED-V1",
+      "sovereign_artifact_path": "knowledge/sigma/CONFIG-SOURCE-OF-TRUTH-ARCHITECTURE-v1.md",
+      "sovereign_artifact_exists": true,
+      "current_state_surface": "orchestration/state/registry/CONFIG-SURFACE-REGISTRY-v1.json",
+      "current_state_surface_exists": true,
+      "claimed_append_only_surface": "orchestration/state/registry/config-surface-state-ledger.jsonl",
+      "claimed_append_only_surface_exists": true,
+      "actual_append_only_surface": "orchestration/state/registry/config-surface-state-ledger.jsonl",
+      "actual_append_only_surface_exists": true,
+      "materialization_law_paths": [
+        "orchestration/state/impl/CONFIG-SURFACE-LEDGER-REMATERIALIZATION-v1.md"
+      ],
+      "materialization_operator_paths": [
+        "operators/validators/rematerialize_config_surface_state.py"
+      ],
+      "proof_support": true,
+      "evidence_summary": "append-only ledger, rematerialization law, rematerializer, and PASS validator report",
+      "finding_count": 0,
+      "warning_count": 0,
+      "error_count": 0
+    }
+  ],
+  "findings": []
+}

@@ -1,7 +1,7 @@
 # Implementation Backlog — Live
 
 - **Status**: live program authority surface
-- **Last reviewed**: `2026-03-09`
+- **Last reviewed**: `2026-03-10`
 - **Review cadence**: weekly and at campaign boundaries
 
 ## Binding
@@ -513,14 +513,35 @@ First normalized set:
 - **lineage_or_origin**: Campaign 06 synthesis and coordinator-ordered projection-ready frontier
 
 1. reconcile the live-ledger family register and its ledger with the newly true `office_harness_state` proof
-   Status: staged
+   Status: completed
 2. define and implement one narrow exocortex-facing office-harness projection that stays strictly derivative and pointer-carrying
-   Status: staged
+   Status: completed via integration repair
 3. add projection receipts or audit surfaces for that office-harness exocortex projection
-   Status: staged
+   Status: completed
 4. write rematerialization law and a builder for `config_surface_state`
-   Status: staged
+   Status: completed
 5. widen the repo-native `chat_ci` foothold into stronger provider-profile or projection-ready packers without leaving repo sovereignty
-   Status: staged
+   Status: completed
 6. keep config-surface exocortex widening deferred until rematerialization is real
+   Status: completed
+
+### Tranche AM — Projection Governance And Second Widening Prep
+
+- **program_id**: `TRANCHE-AM`
+- **intent_refs**: `INT-SHELL-001`, `INT-SHELL-003`, `INT-SHELL-005`
+- **rosetta_refs**: `constitution`, `operator`, `office`, `repo sovereignty`, `exocortex`, `projection`, `live-ledger`
+- **execution_surface**: [IMPLEMENTATION-TRANCHE-AM-PROJECTION-GOVERNANCE-AND-SECOND-WIDENING-PREP.md](/Users/system/syncrescendence/program/IMPLEMENTATION-TRANCHE-AM-PROJECTION-GOVERNANCE-AND-SECOND-WIDENING-PREP.md)
+- **lineage_or_origin**: Campaign 07 synthesis and the corrected first projection-wave frontier
+
+1. reconcile the family-of-families register against corrected Campaign 07 reality and phase-advance only where gate law now justifies it
+   Status: staged
+2. give the first office-harness projection family its own validator and append-only receipt history so it becomes auditable rather than one-off
+   Status: staged
+3. define the narrow lawful widening path for `config_surface_state` through `chat_ci` manual-export or receipt-governed surfaces
+   Status: staged
+4. create a first append-only export or readiness family around `chat_ci` without creating vendor-side hidden sovereignty
+   Status: staged
+5. create one portfolio-level family report so widening can be governed across families rather than through isolated local judgments
+   Status: staged
+6. keep provider automation, hidden second control planes, and silent ontology overreach out of scope until projection governance is stable
    Status: staged

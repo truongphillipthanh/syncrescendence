@@ -1,0 +1,30 @@
+{
+  "findings": [],
+  "generated_at": "2026-03-10T06:35:20Z",
+  "mode": "report-first",
+  "schema_version": "office-harness-exocortex-projection-report/v1",
+  "summary": {
+    "binding_state_counts": {
+      "active": 2
+    },
+    "finding_count": 0,
+    "informative_only_record_count": 0,
+    "operative_record_count": 2,
+    "pointer_complete_record_count": 2,
+    "projected_offices": [
+      "ajna",
+      "psyche"
+    ],
+    "projection_path": "orchestration/state/EXOCORTEX-OFFICE-HARNESS-PROJECTION-CC92.json",
+    "projection_record_count": 2,
+    "projection_scope": "persistent-runtime-openclaw-offices",
+    "projection_sha256": "sha256:91586604859c32f54c18ac2d30b795233020c6aa8b4e41b4ff818f6d896e6f49",
+    "projection_state_counts": {
+      "operative": 2
+    },
+    "scoped_source_record_count": 2,
+    "source_registry_path": "orchestration/state/registry/office-harness-bindings.effective.json",
+    "source_registry_sha256": "sha256:3dcb0fdc4c57ed1bd184d2989e8e7ea182cd954020d63d9e4d0c2d1fde3dcc2a",
+    "status": "coherent"
+  }
+}
