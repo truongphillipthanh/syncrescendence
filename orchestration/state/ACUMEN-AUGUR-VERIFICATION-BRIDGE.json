@@ -1,0 +1,37 @@
+{
+  "counts": {
+    "augur_packets_written": 1,
+    "dossiers_written": 1,
+    "eligible_items_written": 1
+  },
+  "dossier_dir": "runtime/acumen/out/verification-dossiers",
+  "eligible_decisions": [
+    "Flag-for-Primary",
+    "Promote"
+  ],
+  "generated_at": "2026-03-11T02:59:58Z",
+  "items": [
+    {
+      "augur_packet_path": "communications/prompts/PACKET-PERPLEXITY-acumen-deepmind-gemini-31-architecture.md",
+      "augur_response_path": "communications/responses/RESPONSE-PERPLEXITY-acumen-deepmind-gemini-31-architecture.md",
+      "decision": "Promote",
+      "dossier_path": "runtime/acumen/out/verification-dossiers/deepmind-gemini-31-architecture.json",
+      "model_call_event_id": "atc-20260311-0001",
+      "source_packet_path": "runtime/acumen/out/triage/packets/deepmind-gemini-31-architecture.md",
+      "title": "Gemini 3.1 Architecture Update and TPUv5e Notes",
+      "triage_event_id": "atd-20260311-0001",
+      "video_id": "deepmind-gemini-31-architecture"
+    }
+  ],
+  "schema_version": "acumen.verification.bridge/v1",
+  "selected_decisions": [
+    "Flag-for-Primary",
+    "Promote"
+  ],
+  "selected_triage_event_ids": [],
+  "selected_video_ids": [
+    "deepmind-gemini-31-architecture"
+  ],
+  "training_ledger": "orchestration/state/registry/acumen-training-corpus-ledger.jsonl",
+  "triage_ledger": "orchestration/state/registry/acumen-triage-decision-ledger.jsonl"
+}

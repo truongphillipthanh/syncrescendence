@@ -1,7 +1,7 @@
 {
   "canonical_identity": "syncrescendence@gmail.com",
-  "captured_at": "2026-03-11T02:06:01Z",
-  "dawn_brief_path": "/Users/system/syncrescendence/runtime/acumen/out/DAWN-BRIEF-20260311.md",
+  "captured_at": "2026-03-12T21:24:45Z",
+  "dawn_brief_path": "/Users/system/syncrescendence/runtime/acumen/out/DAWN-BRIEF-20260312.md",
   "dawn_brief_status": {
     "command": [
       "python3",
@@ -9,14 +9,44 @@
       "--input-jsonl",
       "/Users/system/syncrescendence/runtime/acumen/triage-decisions.jsonl",
       "--output",
-      "/Users/system/syncrescendence/runtime/acumen/out/DAWN-BRIEF-20260311.md"
+      "/Users/system/syncrescendence/runtime/acumen/out/DAWN-BRIEF-20260312.md"
     ],
     "ok": true,
     "returncode": 0,
     "stderr": "",
-    "stdout": "/Users/system/syncrescendence/runtime/acumen/out/DAWN-BRIEF-20260311.md"
+    "stdout": "/Users/system/syncrescendence/runtime/acumen/out/DAWN-BRIEF-20260312.md"
   },
   "dawn_brief_success": true,
+  "evidence_report_json": "/Users/system/syncrescendence/runtime/acumen/out/ACUMEN-TRIAGE-EVIDENCE-REPORT.json",
+  "evidence_report_md": "/Users/system/syncrescendence/runtime/acumen/out/ACUMEN-TRIAGE-EVIDENCE-REPORT.md",
+  "evidence_report_snapshot": {
+    "findings": [],
+    "status": "PASS",
+    "summary": {
+      "contract_path": "orchestration/state/impl/ACUMEN-TRIAGE-EVIDENCE-CONTRACT-v1.md",
+      "finding_count": 0,
+      "training_event_count": 2,
+      "training_runtime_row_count": 2,
+      "triage_event_count": 2,
+      "triage_runtime_row_count": 2
+    }
+  },
+  "evidence_validation_status": {
+    "command": [
+      "python3",
+      "/Users/system/syncrescendence/operators/validators/validate_acumen_evidence.py",
+      "--output-json",
+      "/Users/system/syncrescendence/runtime/acumen/out/ACUMEN-TRIAGE-EVIDENCE-REPORT.json",
+      "--output-md",
+      "/Users/system/syncrescendence/runtime/acumen/out/ACUMEN-TRIAGE-EVIDENCE-REPORT.md"
+    ],
+    "ok": true,
+    "returncode": 0,
+    "stderr": "",
+    "stdout": "/Users/system/syncrescendence/runtime/acumen/out/ACUMEN-TRIAGE-EVIDENCE-REPORT.json\n/Users/system/syncrescendence/runtime/acumen/out/ACUMEN-TRIAGE-EVIDENCE-REPORT.md"
+  },
+  "evidence_validation_success": true,
+  "execution_profile": "fixture_safe",
   "external_dependencies": {
     "gemini_api": {
       "api_base": "https://generativelanguage.googleapis.com/v1beta/models",
@@ -53,6 +83,7 @@
   "identity_probe_success": true,
   "identity_status_json": "/Users/system/syncrescendence/orchestration/state/ACUMEN-IDENTITY-STATUS.json",
   "mode": "sequential",
+  "ok": true,
   "poll_output": "/Users/system/syncrescendence/runtime/acumen/out/poll-latest.jsonl",
   "poll_status": {
     "command": [
@@ -77,9 +108,53 @@
     "stderr": "",
     "stdout": "/Users/system/syncrescendence/runtime/acumen/out/poll-latest.jsonl"
   },
+  "poll_status_json": "/Users/system/syncrescendence/runtime/acumen/poll-status.json",
+  "poll_status_snapshot": {
+    "captured_at": "2026-03-12T21:24:46Z",
+    "channels": [
+      {
+        "channel_id": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
+        "channel_name": "Google DeepMind",
+        "items_seen": 1,
+        "new_items": 0,
+        "source_mode": "fixture",
+        "status": "ok"
+      },
+      {
+        "channel_id": "UCv83tO5cePwHMt1952IVVHw",
+        "channel_name": "Andrej Karpathy",
+        "items_seen": 1,
+        "new_items": 0,
+        "source_mode": "fixture",
+        "status": "ok"
+      }
+    ],
+    "channels_total": 2,
+    "cursor_json": "/Users/system/syncrescendence/runtime/acumen/poll_cursor.json",
+    "external_dependencies": {
+      "youtube_feed": {
+        "required": false,
+        "satisfied": null
+      }
+    },
+    "failures": 0,
+    "fixture_feed": "/Users/system/syncrescendence/runtime/acumen/poll-fixture.sample.json",
+    "mode": "fixture",
+    "new_uploads": 0,
+    "ok": true,
+    "output": "/Users/system/syncrescendence/runtime/acumen/out/poll-latest.jsonl",
+    "registry": "/Users/system/syncrescendence/runtime/acumen/registry.json"
+  },
   "poll_success": true,
   "queue_exists": true,
+  "queue_jsonl": "/Users/system/syncrescendence/runtime/acumen/triage-decisions.jsonl",
   "registry_exists": true,
+  "requested_queue_jsonl": "/Users/system/syncrescendence/runtime/acumen/triage-decisions.jsonl",
+  "requested_training_jsonl": "/Users/system/syncrescendence/runtime/acumen/training-corpus.jsonl",
+  "runtime_surface_authority": {
+    "training_runtime": "/Users/system/syncrescendence/runtime/acumen/training-corpus.jsonl",
+    "triage_runtime": "/Users/system/syncrescendence/runtime/acumen/triage-decisions.jsonl"
+  },
   "training_jsonl": "/Users/system/syncrescendence/runtime/acumen/training-corpus.jsonl",
   "triage_status": {
     "command": [
@@ -126,6 +201,49 @@
     "returncode": 0,
     "stderr": "",
     "stdout": "/Users/system/syncrescendence/runtime/acumen/triage-decisions.jsonl"
+  },
+  "triage_status_json": "/Users/system/syncrescendence/runtime/acumen/triage-status.json",
+  "triage_status_snapshot": {
+    "artifact_dir": "/Users/system/syncrescendence/runtime/acumen/out/triage",
+    "captured_at": "2026-03-12T21:24:46Z",
+    "external_dependencies": {
+      "gemini_api": {
+        "api_base": "https://generativelanguage.googleapis.com/v1beta/models",
+        "api_key_env": "GEMINI_API_KEY",
+        "available": false,
+        "calls_used": 0,
+        "estimated_cost_per_call_usd": 0.0,
+        "estimated_cost_usd": 0.0,
+        "max_attempts_per_call": 3,
+        "max_estimated_cost_usd": 0.0,
+        "max_live_calls": 5,
+        "max_output_tokens": 220,
+        "max_prompt_chars": 18000,
+        "max_total_tokens": 4096,
+        "model": "gemini-2.5-flash",
+        "required": false,
+        "timeout_seconds": 45.0
+      }
+    },
+    "failures": 0,
+    "mode": "heuristic",
+    "ok": true,
+    "poll_jsonl": "/Users/system/syncrescendence/runtime/acumen/out/poll-latest.jsonl",
+    "processed": 0,
+    "queue_jsonl": "/Users/system/syncrescendence/runtime/acumen/triage-decisions.jsonl",
+    "queued": 0,
+    "registry": "/Users/system/syncrescendence/runtime/acumen/registry.json",
+    "requested_queue_jsonl": "/Users/system/syncrescendence/runtime/acumen/triage-decisions.jsonl",
+    "requested_training_jsonl": "/Users/system/syncrescendence/runtime/acumen/training-corpus.jsonl",
+    "runtime_surface_authority": {
+      "training_runtime": "/Users/system/syncrescendence/runtime/acumen/training-corpus.jsonl",
+      "training_runtime_mirrored_to_requested_path": false,
+      "triage_runtime": "/Users/system/syncrescendence/runtime/acumen/triage-decisions.jsonl",
+      "triage_runtime_mirrored_to_requested_path": false
+    },
+    "skipped_existing": 0,
+    "training_jsonl": "/Users/system/syncrescendence/runtime/acumen/training-corpus.jsonl",
+    "training_records": 0
   },
   "triage_success": true
 }

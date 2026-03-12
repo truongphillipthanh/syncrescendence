@@ -57,6 +57,8 @@ except ImportError:
     )
 
 EVENT_COUNTER_RE = re.compile(r"^[a-z]{3}-\d{8}-(\d{4})$")
+DECISION_PROVENANCE_FIELDS = {"packet_path", "packet_sha256", "input_summary"}
+MODEL_CALL_PROVENANCE_FIELDS = {"packet_path", "packet_sha256", "prompt_sha256", "input_summary"}
 
 
 def parse_args() -> argparse.Namespace:
@@ -80,6 +82,12 @@ def load_json_object(path: str) -> dict[str, Any]:
     if not isinstance(payload, dict):
         raise SystemExit("input payload must be a JSON object")
     return payload
+
+
+def assert_payload_safe(payload: dict[str, Any], *, scope: str = "payload") -> None:
+    findings = scan_forbidden_content(payload, scope=scope)
+    if findings:
+        raise SystemExit("\n".join(findings))
 
 
 def next_event_id(prefix: str, ledger_path: Path) -> str:
@@ -111,30 +119,17 @@ def compute_packet_sha(payload: dict[str, Any]) -> tuple[str | None, str | None]
     return packet_path, sha256_for_file(file_path)
 
 
+def build_decision_record(payload: dict[str, Any], *, event_id: str, recorded_at: str) -> dict[str, Any]:
+    decision_record = {key: value for key, value in payload.items() if key not in DECISION_PROVENANCE_FIELDS}
+    decision_record["triage_event_id"] = event_id
+    decision_record["recorded_at"] = recorded_at
+    return decision_record
+
+
 def build_decision_event(payload: dict[str, Any], actor: str) -> dict[str, Any]:
     event_id = next_event_id("atd", TRIAGE_LEDGER_PATH)
     recorded_at = utc_now()
-    decision_record = {
-        "triage_event_id": event_id,
-        "recorded_at": recorded_at,
-        "channel_name": payload["channel_name"],
-        "channel_id": payload["channel_id"],
-        "title": payload["title"],
-        "decision": payload["decision"],
-        "priority_band": payload["priority_band"],
-        "rationale": payload["rationale"],
-    }
-    for key in (
-        "abstract",
-        "suggested_consumption",
-        "domain_tags",
-        "video_id",
-        "model_call_event_id",
-        "target_depth",
-        "target_polish",
-    ):
-        if key in payload:
-            decision_record[key] = payload[key]
+    decision_record = build_decision_record(payload, event_id=event_id, recorded_at=recorded_at)
 
     packet_path, packet_sha = compute_packet_sha(payload)
     return {
@@ -162,14 +157,9 @@ def build_decision_event(payload: dict[str, Any], actor: str) -> dict[str, Any]:
     }
 
 
-def build_model_call_event(payload: dict[str, Any], actor: str) -> dict[str, Any]:
-    event_id = next_event_id("atc", TRAINING_LEDGER_PATH)
-    recorded_at = utc_now()
+def build_training_record(payload: dict[str, Any], *, event_id: str, recorded_at: str) -> dict[str, Any]:
     packet_path, packet_sha = compute_packet_sha(payload)
     prompt_sha = payload.get("prompt_sha256") or packet_sha
-    outcome = payload["outcome"]
-    status = str(outcome.get("status", "")).strip()
-    event_type = "model_call_recorded" if status == "success" else "model_call_failed"
     training_record = {
         "call_event_id": event_id,
         "recorded_at": recorded_at,
@@ -189,10 +179,24 @@ def build_model_call_event(payload: dict[str, Any], actor: str) -> dict[str, Any
         "response_capture": payload["response_capture"],
         "usage": payload.get("usage", {}),
         "cost": payload.get("cost", {}),
-        "outcome": outcome,
+        "outcome": payload["outcome"],
     }
-    if "decision_event_id" in payload:
-        training_record["decision_event_id"] = payload["decision_event_id"]
+    for key in payload:
+        if key in MODEL_CALL_PROVENANCE_FIELDS:
+            continue
+        if key in training_record:
+            continue
+        training_record[key] = payload[key]
+    return training_record
+
+
+def build_model_call_event(payload: dict[str, Any], actor: str) -> dict[str, Any]:
+    event_id = next_event_id("atc", TRAINING_LEDGER_PATH)
+    recorded_at = utc_now()
+    outcome = payload["outcome"]
+    status = str(outcome.get("status", "")).strip()
+    event_type = "model_call_recorded" if status == "success" else "model_call_failed"
+    training_record = build_training_record(payload, event_id=event_id, recorded_at=recorded_at)
 
     return {
         "schema_version": TRAINING_LEDGER_SCHEMA,
@@ -220,25 +224,37 @@ def rematerialize_runtime() -> None:
     write_jsonl(TRAINING_RUNTIME_PATH, training_rows)
 
 
+def record_decision_payload(payload: dict[str, Any], actor: str, *, rematerialize: bool = True) -> dict[str, Any]:
+    ensure_surface_files()
+    assert_payload_safe(payload)
+    event = build_decision_event(payload, actor)
+    append_jsonl(TRIAGE_LEDGER_PATH, event)
+    if rematerialize:
+        rematerialize_runtime()
+    return event
+
+
+def record_model_call_payload(payload: dict[str, Any], actor: str, *, rematerialize: bool = True) -> dict[str, Any]:
+    ensure_surface_files()
+    assert_payload_safe(payload)
+    event = build_model_call_event(payload, actor)
+    append_jsonl(TRAINING_LEDGER_PATH, event)
+    if rematerialize:
+        rematerialize_runtime()
+    return event
+
+
 def main() -> int:
     args = parse_args()
-    ensure_surface_files()
     payload = load_json_object(args.input_json)
-    findings = scan_forbidden_content(payload, scope="payload")
-    if findings:
-        raise SystemExit("\n".join(findings))
 
     if args.command == "decision":
-        event = build_decision_event(payload, args.actor)
-        append_jsonl(TRIAGE_LEDGER_PATH, event)
+        event = record_decision_payload(payload, args.actor, rematerialize=not args.no_rematerialize)
         ledger_path = TRIAGE_LEDGER_PATH
     else:
-        event = build_model_call_event(payload, args.actor)
-        append_jsonl(TRAINING_LEDGER_PATH, event)
+        event = record_model_call_payload(payload, args.actor, rematerialize=not args.no_rematerialize)
         ledger_path = TRAINING_LEDGER_PATH
 
-    if not args.no_rematerialize:
-        rematerialize_runtime()
     print(repo_rel(ledger_path))
     print(event["event_id"])
     return 0

@@ -13,6 +13,8 @@ This lane provides:
 7. Dawn Brief compilation
 8. sequential runtime wrapper that probes identity and compiles a Dawn Brief
 9. repo-native evidence logging, rematerialization, and validation
+10. post-triage dossier and Augur verification packet generation for promoted or flagged items
+11. promoted-item dossier and Augur verification bridge generation
 
 ## Runtime Contract
 
@@ -20,9 +22,25 @@ Current repo-native Acumen execution is local and file-based.
 
 1. `poll_youtube_registry.py` consumes a YouTube Data API key only through an external env var (`ACUMEN_YOUTUBE_API_KEY` by default, overrideable with `--api-key-env`).
 2. `build_triage_packet.py` writes a deterministic packet JSON artifact and can optionally emit a prompt preview. It does not call Gemini itself.
-3. `run_gemini_triage.py` is the single-packet Gemini adapter. `run_triage.py` is the batch runner that consumes poll output, builds packets, invokes Gemini when enabled, and appends queue/training artifacts.
+3. `run_gemini_triage.py` is the single-packet Gemini adapter. `run_triage.py` is the batch runner that consumes poll output, builds packets, invokes Gemini when enabled, and appends runtime queue/training artifacts.
 4. `identity_binding_probe.py` shells out to `gcloud` and macOS `security` when present. Strict mode fails only on detected canonical-identity mismatches, not on missing tools.
 5. `record_evidence.py` accepts only sanitized model-call and decision metadata. Raw prompt bodies, raw response bodies, and secret-bearing fields are forbidden.
+6. `make acumen-live-batch` is the narrow operator entrypoint for a first true live batch. It validates the registry, enforces strict identity, and then runs live YouTube polling plus Gemini triage without storing secrets in repo.
+
+## Truth Boundary
+
+1. code presence:
+   - live YouTube polling, Gemini triage, evidence ledgers, rematerialization, and the sequential wrapper are all landed in repo
+2. fixture-safe proof:
+   - the repeatable proof path is `make acumen-sample-run`, which uses fixture polling plus heuristic triage and writes status artifacts under `runtime/acumen/` and `orchestration/state/`
+   - the current evidence family validates through `python3 operators/validators/validate_acumen_evidence.py`
+3. live external proof:
+   - no committed Acumen runtime artifact here proves a live YouTube API poll
+   - no committed Acumen runtime artifact here proves a live Gemini invocation
+4. current remaining boundary:
+   - the normal batch runner is now evidence-native and the repeatable sample path passes
+   - the remaining repo-external gap is first successful live YouTube plus live Gemini proof with credentials present
+   - the next internal widening gap is downstream assessment and primary-source escalation from Augur returns, not batch closure itself
 
 ## Commands
 
@@ -54,33 +72,74 @@ Current repo-native Acumen execution is local and file-based.
 7. run Gemini for one packet (`GEMINI_API_KEY` stays external to the repo):
    - `python3 operators/acumen/run_gemini_triage.py --packet runtime/acumen/out/triage-packet.sample.json --output runtime/acumen/out/triage-decision.sample.json --append-jsonl runtime/acumen/triage-decisions.jsonl`
    - guardrails: strict response schema, prompt/token budgets, retry on malformed/retryable responses
+   - note: `--append-jsonl` writes the runtime current-state queue directly; it is not the append-only ledger path
 8. hand off YouTube bridge capture into Acumen intake:
    - `python3 operators/exocortex/youtube_feed_bridge.py --resource-kind video --resource-id sample-video --summary "Architecture update checkpoint" --title "Gemini 3.1 Architecture Update" --channel-id UC_x5XG1OV2P6uZZ5FSM9Ttw --payload '{"duration":"01:02:11","description":"DeepMind team discusses Gemini architecture updates.","initial_transcript":"today demis hassabis outlines gemini architecture changes"}' --acumen-registry runtime/acumen/registry.json`
    - outputs: `runtime/acumen/intake/youtube/*.json`, `runtime/acumen/intake/triage-packets/*.json`, and prompt previews in `runtime/acumen/intake/triage-prompts/*.md`
    - sovereignty rule: channels absent from the Acumen registry are skipped rather than admitted through the bridge
 9. run batch triage from poll output:
    - `python3 operators/acumen/run_triage.py --registry runtime/acumen/registry.json --poll-jsonl runtime/acumen/poll-candidates.jsonl --queue-jsonl runtime/acumen/triage-decisions.jsonl --training-jsonl runtime/acumen/training-corpus.jsonl --status-json runtime/acumen/triage-status.json --artifact-dir runtime/acumen/out/triage --mode gemini`
-   - outputs: queue records, training-corpus metadata, packet JSON artifacts, prompt previews, and triage status
+   - outputs: append-only decision and model-call evidence, rematerialized runtime queue and training views, packet JSON artifacts, prompt previews, and triage status
+   - note: this is now the evidence-native default batch route for Acumen
 10. compile Dawn Brief:
    - `python3 operators/acumen/build_dawn_brief.py --input-jsonl runtime/acumen/triage-decisions.sample.jsonl --output runtime/acumen/out/DAWN-BRIEF-sample.md`
    - output: Dawn Brief markdown synthesized from an existing decision queue
 11. run sequential runtime wrapper:
-   - `python3 operators/acumen/pipeline_flow.py --registry runtime/acumen/registry.json --queue runtime/acumen/triage-decisions.sample.jsonl --out runtime/acumen/out --status-json orchestration/state/ACUMEN-PIPELINE-STATUS.json --identity-binding orchestration/state/ACUMEN-IDENTITY-BINDING-CC87.json --strict-identity`
+   - `python3 operators/acumen/pipeline_flow.py --registry runtime/acumen/registry.json --queue runtime/acumen/triage-decisions.jsonl --out runtime/acumen/out --status-json orchestration/state/ACUMEN-PIPELINE-STATUS.json --identity-binding orchestration/state/ACUMEN-IDENTITY-BINDING-CC87.json --poll-mode fixture --fixture-feed runtime/acumen/poll-fixture.sample.json --triage-mode heuristic --strict-identity`
    - outputs:
      - `runtime/acumen/out/DAWN-BRIEF-YYYYMMDD.md`
      - `orchestration/state/ACUMEN-PIPELINE-STATUS.json`
      - `orchestration/state/ACUMEN-IDENTITY-STATUS.json`
-   - failure modes: missing queue or binding file, Dawn Brief compile failure, strict identity mismatch
+   - failure modes: missing queue or binding file, Dawn Brief compile failure, strict identity mismatch, live-mode credential failures when `poll-mode=live` or `triage-mode=gemini`
 12. repeatable sample smoke via Make:
    - `make acumen-sample-run`
+   - current proof class: fixture poll plus heuristic triage, not live external execution
    - optional knobs: `STRICT=1`, `POLISH=charitable`, `STATUS_JSON=/abs/path/status.json`
-13. record a sanitized triage decision event:
+13. one-command live batch via Make:
+   - `ACUMEN_YOUTUBE_API_KEY=... GEMINI_API_KEY=... make acumen-live-batch`
+   - fixed path:
+     - validates `runtime/acumen/registry.json`
+     - enforces strict identity with `orchestration/state/ACUMEN-IDENTITY-BINDING-CC87.json`
+     - writes live poll status to `orchestration/state/ACUMEN-YOUTUBE-POLL-STATUS.json`
+     - writes triage status to `runtime/acumen/triage-status.json`
+     - writes top-level pipeline status to `orchestration/state/ACUMEN-PIPELINE-STATUS.json`
+   - bounded live failure classes:
+     - `credential`
+     - `identity`
+     - `external_service`
+14. record a sanitized triage decision event:
    - `python3 operators/acumen/record_evidence.py decision --input-json /abs/path/decision.json --actor acumen.triage`
    - output: append-only event in `orchestration/state/registry/acumen-triage-decision-ledger.jsonl` plus rebuilt `runtime/acumen/triage-decisions.jsonl`
-14. record a sanitized model-call event:
+15. record a sanitized model-call event:
    - `python3 operators/acumen/record_evidence.py model-call --input-json /abs/path/model-call.json --actor acumen.triage`
    - output: append-only event in `orchestration/state/registry/acumen-training-corpus-ledger.jsonl` plus rebuilt `runtime/acumen/training-corpus.jsonl`
-15. rebuild runtime evidence from ledgers:
+16. rebuild runtime evidence from ledgers:
    - `python3 operators/acumen/rematerialize_evidence.py`
-16. validate the evidence family:
+17. validate the evidence family:
    - `python3 operators/validators/validate_acumen_evidence.py`
+18. build post-triage dossiers and Augur verification packets for eligible items:
+   - `python3 operators/acumen/build_verification_bridge.py --video-id deepmind-gemini-31-architecture`
+   - outputs:
+     - `runtime/acumen/out/verification-dossiers/deepmind-gemini-31-architecture.json`
+     - `communications/prompts/PACKET-PERPLEXITY-acumen-deepmind-gemini-31-architecture.md`
+     - expected return target in `communications/responses/RESPONSE-PERPLEXITY-acumen-deepmind-gemini-31-architecture.md`
+     - bridge state at `orchestration/state/ACUMEN-AUGUR-VERIFICATION-BRIDGE.json`
+   - guardrail: only `Promote` or `Flag-for-Primary` decision records are eligible
+19. emit verification-ready dossiers and downstream Augur packets:
+   - `python3 operators/acumen/build_verification_bridge.py`
+   - outputs:
+     - `runtime/acumen/out/verification-dossiers/*.json`
+     - `communications/prompts/PACKET-PERPLEXITY-acumen-*.md`
+     - `orchestration/state/ACUMEN-AUGUR-VERIFICATION-BRIDGE.json`
+   - routing rule: Acumen stays sovereign over intake and triage; Augur receives only sanitized downstream verification packets
+20. validate the dossier and bridge family:
+   - `python3 operators/validators/validate_acumen_verification_bridge.py`
+   - outputs:
+     - `orchestration/state/ACUMEN-AUGUR-VERIFICATION-BRIDGE-REPORT.json`
+     - `orchestration/state/ACUMEN-AUGUR-VERIFICATION-BRIDGE-REPORT.md`
+
+## Operator Notes
+
+1. `make acumen-sample-run` remains the fixture-safe proof path and is unchanged by the live-batch target.
+2. `make acumen-live-batch` consumes only env-var credentials by name. It does not echo, persist, or ledger raw secrets.
+3. `orchestration/state/ACUMEN-PIPELINE-STATUS.json` now surfaces `failure_domain`, `failure_code`, `failure_message`, and nested poll / triage status snapshots so a blocked live batch is diagnosable without widening the failure surface.

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Sequential Acumen flow: identity -> poll -> triage -> queue -> Dawn Brief."""
+"""Sequential Acumen flow: identity -> poll -> triage -> evidence -> Dawn Brief."""
 
 from __future__ import annotations
 
@@ -10,6 +10,10 @@ from pathlib import Path
 import subprocess
 
 from build_dawn_brief import main as dawn_brief_main  # noqa: F401  # imported for lane linkage
+try:
+    from .evidence_family import TRAINING_RUNTIME_PATH, TRIAGE_RUNTIME_PATH
+except ImportError:
+    from evidence_family import TRAINING_RUNTIME_PATH, TRIAGE_RUNTIME_PATH
 
 
 def utc_now() -> str:
@@ -19,7 +23,7 @@ def utc_now() -> str:
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--registry", required=True)
-    parser.add_argument("--queue", required=True, help="Append-only JSONL queue of triage decisions.")
+    parser.add_argument("--queue", required=True, help="Compatibility path mirroring the triage runtime view.")
     parser.add_argument("--out", required=True, help="Output directory for compiled artifacts.")
     parser.add_argument("--status-json", default="orchestration/state/ACUMEN-PIPELINE-STATUS.json")
     parser.add_argument("--identity-binding", default="orchestration/state/ACUMEN-IDENTITY-BINDING-CC87.json")
@@ -60,6 +64,16 @@ def ensure_jsonl(path: Path) -> None:
         path.write_text("", encoding="utf-8")
 
 
+def load_json(path: Path) -> dict[str, object] | None:
+    if not path.exists():
+        return None
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+    except Exception:
+        return None
+    return payload if isinstance(payload, dict) else None
+
+
 def run_command(command: list[str]) -> dict[str, object]:
     proc = subprocess.run(command, capture_output=True, text=True, check=False)
     return {
@@ -69,6 +83,25 @@ def run_command(command: list[str]) -> dict[str, object]:
         "stderr": (proc.stderr or "").strip()[:2000],
         "ok": proc.returncode == 0,
     }
+
+
+def pipeline_failure(
+    *,
+    domain: str,
+    code: str,
+    message: str,
+    stage: str,
+    details: dict[str, object] | None = None,
+) -> dict[str, object]:
+    payload: dict[str, object] = {
+        "failure_domain": domain,
+        "failure_code": code,
+        "failure_message": message,
+        "failed_stage": stage,
+    }
+    if details:
+        payload["failure_details"] = details
+    return payload
 
 
 def run_sequential(args: argparse.Namespace) -> dict[str, object]:
@@ -82,6 +115,12 @@ def run_sequential(args: argparse.Namespace) -> dict[str, object]:
     training_jsonl = Path(args.training_jsonl).expanduser().resolve()
     ensure_jsonl(training_jsonl)
     triage_artifact_dir = Path(args.triage_artifact_dir).expanduser().resolve() if args.triage_artifact_dir else out / "triage"
+    poll_status_json = Path(args.poll_status_json).expanduser().resolve()
+    triage_status_json = Path(args.triage_status_json).expanduser().resolve()
+    evidence_report_json = out / "ACUMEN-TRIAGE-EVIDENCE-REPORT.json"
+    evidence_report_md = out / "ACUMEN-TRIAGE-EVIDENCE-REPORT.md"
+    authoritative_queue = TRIAGE_RUNTIME_PATH.resolve()
+    authoritative_training = TRAINING_RUNTIME_PATH.resolve()
 
     binding_path = Path(args.identity_binding).expanduser().resolve()
     binding = json.loads(binding_path.read_text(encoding="utf-8"))
@@ -115,6 +154,11 @@ def run_sequential(args: argparse.Namespace) -> dict[str, object]:
     status: dict[str, object] = {
         "captured_at": utc_now(),
         "mode": "sequential",
+        "execution_profile": "live_batch"
+        if args.poll_mode == "live" and args.triage_mode == "gemini" and args.strict_identity
+        else "fixture_safe"
+        if args.poll_mode == "fixture"
+        else "custom",
         "registry_exists": registry.exists(),
         "queue_exists": queue.exists(),
         "canonical_identity": canonical,
@@ -122,7 +166,14 @@ def run_sequential(args: argparse.Namespace) -> dict[str, object]:
         "identity_probe": identity_probe,
         "identity_status_json": str(identity_status_path),
         "poll_output": str(poll_output),
-        "training_jsonl": str(training_jsonl),
+        "poll_status_json": str(poll_status_json),
+        "queue_jsonl": str(authoritative_queue),
+        "requested_queue_jsonl": str(queue),
+        "training_jsonl": str(authoritative_training),
+        "requested_training_jsonl": str(training_jsonl),
+        "triage_status_json": str(triage_status_json),
+        "evidence_report_json": str(evidence_report_json),
+        "evidence_report_md": str(evidence_report_md),
         "external_dependencies": {
             "youtube_feed": {
                 "mode": args.poll_mode,
@@ -148,7 +199,17 @@ def run_sequential(args: argparse.Namespace) -> dict[str, object]:
         status["stopped_reason"] = "strict_identity_failure"
         status["poll_success"] = False
         status["triage_success"] = False
+        status["evidence_validation_success"] = False
         status["dawn_brief_success"] = False
+        status.update(
+            pipeline_failure(
+                domain="identity",
+                code="identity_mismatch",
+                message="strict identity gate failed",
+                stage="identity_probe",
+                details=load_json(identity_status_path),
+            )
+        )
         return status
 
     use_fixture_poll = args.poll_mode == "fixture" or bool(args.fixture_feed)
@@ -163,7 +224,7 @@ def run_sequential(args: argparse.Namespace) -> dict[str, object]:
             "--cursor-json",
             str(Path(args.poll_cursor_json).expanduser().resolve()),
             "--status-json",
-            str(Path(args.poll_status_json).expanduser().resolve()),
+            str(poll_status_json),
             "--mode",
             "fixture" if args.poll_mode == "fixture" else "auto",
         ]
@@ -182,11 +243,12 @@ def run_sequential(args: argparse.Namespace) -> dict[str, object]:
             "--output-jsonl",
             str(poll_output),
             "--status-json",
-            str(Path(args.poll_status_json).expanduser().resolve()),
+            str(poll_status_json),
         ]
         if args.force_poll:
             poll_command.append("--force")
     poll_status = run_command(poll_command)
+    poll_snapshot = load_json(poll_status_json)
 
     triage_command = [
         "python3",
@@ -200,7 +262,7 @@ def run_sequential(args: argparse.Namespace) -> dict[str, object]:
         "--training-jsonl",
         str(training_jsonl),
         "--status-json",
-        str(Path(args.triage_status_json).expanduser().resolve()),
+        str(triage_status_json),
         "--artifact-dir",
         str(triage_artifact_dir),
         "--mode",
@@ -238,34 +300,154 @@ def run_sequential(args: argparse.Namespace) -> dict[str, object]:
             "stderr": "poll stage failed",
             "ok": False,
         }
+    triage_snapshot = load_json(triage_status_json)
+
+    evidence_command = [
+        "python3",
+        str(Path(__file__).resolve().parents[1] / "validators" / "validate_acumen_evidence.py"),
+        "--output-json",
+        str(evidence_report_json),
+        "--output-md",
+        str(evidence_report_md),
+    ]
+    if triage_status["ok"]:
+        evidence_status = run_command(evidence_command)
+    else:
+        evidence_status = {
+            "command": evidence_command,
+            "returncode": None,
+            "stdout": "",
+            "stderr": "triage stage failed",
+            "ok": False,
+        }
+    evidence_snapshot = load_json(evidence_report_json)
 
     dawn_brief = out / f"DAWN-BRIEF-{datetime.now(UTC).strftime('%Y%m%d')}.md"
     dawn_command = [
         "python3",
         str(Path(__file__).resolve().parent / "build_dawn_brief.py"),
         "--input-jsonl",
-        str(queue),
+        str(authoritative_queue),
         "--output",
         str(dawn_brief),
     ]
-    if triage_status["ok"]:
+    if evidence_status["ok"]:
         dawn_status = run_command(dawn_command)
     else:
         dawn_status = {
             "command": dawn_command,
             "returncode": None,
             "stdout": "",
-            "stderr": "triage stage failed",
+            "stderr": "evidence validation failed",
             "ok": False,
         }
 
     status["poll_success"] = bool(poll_status["ok"])
     status["poll_status"] = poll_status
+    status["poll_status_snapshot"] = poll_snapshot
     status["triage_success"] = bool(triage_status["ok"])
     status["triage_status"] = triage_status
+    status["triage_status_snapshot"] = triage_snapshot
+    status["evidence_validation_success"] = bool(evidence_status["ok"])
+    status["evidence_validation_status"] = evidence_status
+    status["evidence_report_snapshot"] = evidence_snapshot
     status["dawn_brief_path"] = str(dawn_brief)
     status["dawn_brief_success"] = bool(dawn_status["ok"])
     status["dawn_brief_status"] = dawn_status
+    status["runtime_surface_authority"] = {
+        "triage_runtime": str(authoritative_queue),
+        "training_runtime": str(authoritative_training),
+    }
+    status["ok"] = bool(identity_ok and poll_status["ok"] and triage_status["ok"] and evidence_status["ok"] and dawn_status["ok"])
+
+    if not poll_status["ok"]:
+        if isinstance(poll_snapshot, dict):
+            if poll_snapshot.get("failure_code"):
+                status.update(
+                    pipeline_failure(
+                        domain="identity"
+                        if poll_snapshot.get("failure_code") == "identity_mismatch"
+                        else "credential"
+                        if poll_snapshot.get("failure_code") == "missing_api_key"
+                        else "external_service",
+                        code=str(poll_snapshot.get("failure_code")),
+                        message=str(poll_snapshot.get("failure_message") or "poll stage failed"),
+                        stage="poll",
+                        details=poll_snapshot,
+                    )
+                )
+            elif str(poll_snapshot.get("result")) == "partial" and isinstance(poll_snapshot.get("errors"), list) and poll_snapshot["errors"]:
+                first_error = poll_snapshot["errors"][0]
+                if isinstance(first_error, dict):
+                    status.update(
+                        pipeline_failure(
+                            domain="external_service",
+                            code=str(first_error.get("code") or "poll_partial"),
+                            message=str(first_error.get("message") or "poll stage failed"),
+                            stage="poll",
+                            details=poll_snapshot,
+                        )
+                    )
+        if "failure_code" not in status:
+            status.update(
+                pipeline_failure(
+                    domain="external_service",
+                    code="poll_stage_failed",
+                    message=str(poll_status.get("stderr") or "poll stage failed"),
+                    stage="poll",
+                )
+            )
+    elif not triage_status["ok"]:
+        if isinstance(triage_snapshot, dict) and triage_snapshot.get("failure_code"):
+            status.update(
+                pipeline_failure(
+                    domain=str(triage_snapshot.get("failure_domain") or "external_service"),
+                    code=str(triage_snapshot.get("failure_code")),
+                    message=str(triage_snapshot.get("failure_message") or "triage stage failed"),
+                    stage="triage",
+                    details=triage_snapshot,
+                )
+            )
+        else:
+            status.update(
+                pipeline_failure(
+                    domain="external_service",
+                    code="triage_stage_failed",
+                    message=str(triage_status.get("stderr") or "triage stage failed"),
+                    stage="triage",
+                )
+            )
+    elif not evidence_status["ok"]:
+        if isinstance(evidence_snapshot, dict) and isinstance(evidence_snapshot.get("findings"), list) and evidence_snapshot["findings"]:
+            first_finding = evidence_snapshot["findings"][0]
+            if isinstance(first_finding, dict):
+                status.update(
+                    pipeline_failure(
+                        domain="evidence_contract",
+                        code="evidence_validation_failed",
+                        message=str(first_finding.get("message") or "evidence validation failed"),
+                        stage="evidence_validation",
+                        details=evidence_snapshot,
+                    )
+                )
+        if "failure_code" not in status:
+            status.update(
+                pipeline_failure(
+                    domain="evidence_contract",
+                    code="evidence_validation_failed",
+                    message=str(evidence_status.get("stderr") or "evidence validation failed"),
+                    stage="evidence_validation",
+                )
+            )
+    elif not dawn_status["ok"]:
+        status.update(
+            pipeline_failure(
+                domain="external_service",
+                code="dawn_brief_failed",
+                message=str(dawn_status.get("stderr") or "dawn brief compile failed"),
+                stage="dawn_brief",
+            )
+        )
     return status
 
 
@@ -281,6 +463,8 @@ def main() -> int:
         return 3
     if not status["triage_success"]:
         return 4
+    if not status["evidence_validation_success"]:
+        return 5
     if not status["dawn_brief_success"]:
         return 1
     return 0

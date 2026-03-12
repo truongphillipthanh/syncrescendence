@@ -1,6 +1,6 @@
 # Acumen Intelligence Pipeline Adoption — CC87
 
-**Date**: 2026-03-04  
+**Date**: 2026-03-11
 **Status**: active  
 **Class**: implementation package
 
@@ -49,14 +49,39 @@ Primary external source ingested as feedstock:
 
 CC88 materially landed.
 
-The truthful integrated state is:
+Campaign 09 synthesis is the correct integrated reading:
 
-- real polling code exists
-- real Gemini adapter code exists
-- real append-only evidence surfaces exist
-- the fixture-safe sequential pipeline works
-- live YouTube polling and live Gemini invocation remain unproven in this environment because credentials are absent
-- the normal batch path still needs final evidence-native closure
+1. code presence is strong:
+   - real YouTube poller code exists
+   - real Gemini triage adapter code exists
+   - real batch and sequential pipeline wrappers exist
+   - real append-only Acumen evidence-family code exists
+2. fixture-safe local proof is real:
+   - registry validation works
+   - canonical identity probing works
+   - fixture polling works
+   - heuristic triage works
+   - Dawn Brief compilation works
+   - the normal batch path is now evidence-native and rematerializes authoritative runtime current-state views from append-only ledgers
+   - the evidence validator passes against the current Acumen ledgers
+3. live external proof is still absent in this environment:
+   - no committed proof here shows a live YouTube API poll
+   - no committed proof here shows a live Gemini invocation
+4. downstream verification is now real:
+   - a lawful Augur / Perplexity artifact family exists for promoted or primary-flagged items
+   - dossier generation, bridge status, and verification-packet emission are all landed
+   - the next gap is response ingestion, assessment, and primary-source escalation rather than packet generation itself
+
+Current local proof surfaces on disk include:
+
+1. [ACUMEN-PIPELINE-STATUS.json](/Users/system/syncrescendence/orchestration/state/ACUMEN-PIPELINE-STATUS.json)
+2. [poll-status.json](/Users/system/syncrescendence/runtime/acumen/poll-status.json)
+3. [triage-status.json](/Users/system/syncrescendence/runtime/acumen/triage-status.json)
+4. [acumen-triage-decision-ledger.jsonl](/Users/system/syncrescendence/orchestration/state/registry/acumen-triage-decision-ledger.jsonl)
+5. [acumen-training-corpus-ledger.jsonl](/Users/system/syncrescendence/orchestration/state/registry/acumen-training-corpus-ledger.jsonl)
+6. [ACUMEN-TRIAGE-EVIDENCE-REPORT.md](/Users/system/syncrescendence/orchestration/state/ACUMEN-TRIAGE-EVIDENCE-REPORT.md)
+7. [ACUMEN-AUGUR-VERIFICATION-BRIDGE.json](/Users/system/syncrescendence/orchestration/state/ACUMEN-AUGUR-VERIFICATION-BRIDGE.json)
+8. [ACUMEN-AUGUR-VERIFICATION-BRIDGE-REPORT.md](/Users/system/syncrescendence/orchestration/state/ACUMEN-AUGUR-VERIFICATION-BRIDGE-REPORT.md)
 
 ## Scope Boundary (Post-CC88)
 
@@ -65,14 +90,16 @@ Implemented in repo:
 1. deterministic processing primitives
 2. identity and registry contracts
 3. polling, triage, and delivery operators
-4. evidence-family seed surfaces
+4. append-only evidence-family ledgers plus rematerialization and validation
 5. execution runbook and make targets
+6. one-command live-batch cut-in path that blocks cleanly on absent credentials
+7. promoted-item dossier and Augur verification packet bridge
 
 Still deferred or incomplete:
 
 1. first true live batch with external credentials exercised
-2. final evidence-native closure in the normal batch path
-3. promoted-item verification and reconnaissance sidecars
+2. Augur response ingestion, repo-side assessment, and primary-source escalation
+3. intelligence product widening beyond Dawn Brief
 4. TTS batch generation stack
 5. Prefect deployment and cron surface
 6. LoRA specialist training loop
@@ -87,8 +114,9 @@ This cut lands enforceable substrate first:
 
 ## Next Milestone
 
-CC89 should close the gap between executable harness and first true live batch:
+Campaign 11 / CC90 should widen the first truthful pipeline into a fuller intelligence cycle:
 
-1. route normal execution through the evidence family
-2. make the live-batch operator path one-command and truthfully documented
-3. add promoted-item verification routing through Augur / Perplexity without making Perplexity the intake engine
+1. capture the first credentialed live-batch proof when credentials are available
+2. turn promoted-item verification into a repeatable queue or portfolio rather than a single packet
+3. add Augur-response ingestion, repo-side assessment, and primary-source escalation
+4. widen Acumen outputs beyond Dawn Brief into a broader intelligence-product family

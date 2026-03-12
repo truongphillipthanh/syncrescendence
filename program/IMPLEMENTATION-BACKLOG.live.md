@@ -1,7 +1,7 @@
 # Implementation Backlog — Live
 
 - **Status**: live program authority surface
-- **Last reviewed**: `2026-03-10`
+- **Last reviewed**: `2026-03-12`
 - **Review cadence**: weekly and at campaign boundaries
 
 ## Binding
@@ -580,11 +580,11 @@ First normalized set:
 2. land the Gemini triage adapter and guardrails
    Status: completed in code, live credentials unproven
 3. land the triage-decision and training-corpus evidence family
-   Status: completed as a family, not yet fully integrated into the normal batch path
+   Status: completed and integrated into the normal batch path
 4. upgrade the sequential pipeline flow from scaffold to fixture-safe executable batch
    Status: completed
 5. harden runtime docs, Make surfaces, and bridge integration
-   Status: completed, with truth reconciliation still needed
+   Status: completed
 6. determine whether Acumen crossed into a first true operational batch
    Status: adjudicated partial
 
@@ -594,15 +594,36 @@ First normalized set:
 - **intent_refs**: `INT-SHELL-001`, `INT-SHELL-003`, `INT-SHELL-005`
 - **rosetta_refs**: `operator`, `runtime`, `live-ledger`, `projection`, `exocortex`, `repo sovereignty`
 - **execution_surface**: [IMPLEMENTATION-TRANCHE-AO-ACUMEN-CC89-LIVE-BATCH-CLOSURE-AND-AUGUR-VERIFICATION.md](/Users/system/syncrescendence/program/IMPLEMENTATION-TRANCHE-AO-ACUMEN-CC89-LIVE-BATCH-CLOSURE-AND-AUGUR-VERIFICATION.md)
-- **lineage_or_origin**: Campaign 09 synthesis and the integrated Perplexity harness teleology
+- **lineage_or_origin**: Campaign 09 synthesis, the integrated Perplexity harness teleology, and Campaign 10 synthesis
 
 1. close the evidence-native gap in the normal Acumen batch path
-   Status: staged
+   Status: completed
 2. reconcile runtime, adoption, and operator docs to the actual CC88 state
-   Status: staged
+   Status: completed
 3. create the first truthful one-command live-batch operator path
-   Status: staged
+   Status: completed, credential-blocked for live proof
 4. add lawful Augur / Perplexity verification artifacts for promoted or flagged items
-   Status: staged
+   Status: completed
 5. create the first promoted-item dossier bridge from Acumen outputs into follow-on verification
+   Status: completed
+
+### Tranche AP — Acumen CC90 Full Intelligence Cycle And Research Yield
+
+- **program_id**: `TRANCHE-AP`
+- **intent_refs**: `INT-SHELL-001`, `INT-SHELL-003`, `INT-SHELL-005`
+- **rosetta_refs**: `operator`, `runtime`, `live-ledger`, `verification`, `knowledge lane`, `projection`, `repo sovereignty`
+- **execution_surface**: [IMPLEMENTATION-TRANCHE-AP-ACUMEN-CC90-FULL-INTELLIGENCE-CYCLE-AND-RESEARCH-YIELD.md](/Users/system/syncrescendence/program/IMPLEMENTATION-TRANCHE-AP-ACUMEN-CC90-FULL-INTELLIGENCE-CYCLE-AND-RESEARCH-YIELD.md)
+- **lineage_or_origin**: Campaign 10 synthesis and the first truthful Acumen pipeline state
+
+1. create the receipt family and operator loop for the first true credentialed live-batch proof
+   Status: staged
+2. widen the Acumen -> Augur verification bridge from one dossier into a repeatable verification queue or portfolio
+   Status: staged
+3. ingest Augur returns into repo-side assessment artifacts and primary-source escalation surfaces
+   Status: staged
+4. widen Acumen outputs beyond `Dawn Brief` into a more complete intelligence-product family
+   Status: staged
+5. add telemetry for yield, latency, cost, and promotion quality across poll, triage, and verification
+   Status: staged
+6. widen the channel portfolio and signal policy without relaxing intake sovereignty or promotion discipline
    Status: staged

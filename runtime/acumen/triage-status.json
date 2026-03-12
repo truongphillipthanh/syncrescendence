@@ -1,6 +1,6 @@
 {
   "artifact_dir": "/Users/system/syncrescendence/runtime/acumen/out/triage",
-  "captured_at": "2026-03-11T02:06:01Z",
+  "captured_at": "2026-03-12T21:24:46Z",
   "external_dependencies": {
     "gemini_api": {
       "api_base": "https://generativelanguage.googleapis.com/v1beta/models",
@@ -28,6 +28,14 @@
   "queue_jsonl": "/Users/system/syncrescendence/runtime/acumen/triage-decisions.jsonl",
   "queued": 0,
   "registry": "/Users/system/syncrescendence/runtime/acumen/registry.json",
+  "requested_queue_jsonl": "/Users/system/syncrescendence/runtime/acumen/triage-decisions.jsonl",
+  "requested_training_jsonl": "/Users/system/syncrescendence/runtime/acumen/training-corpus.jsonl",
+  "runtime_surface_authority": {
+    "training_runtime": "/Users/system/syncrescendence/runtime/acumen/training-corpus.jsonl",
+    "training_runtime_mirrored_to_requested_path": false,
+    "triage_runtime": "/Users/system/syncrescendence/runtime/acumen/triage-decisions.jsonl",
+    "triage_runtime_mirrored_to_requested_path": false
+  },
   "skipped_existing": 0,
   "training_jsonl": "/Users/system/syncrescendence/runtime/acumen/training-corpus.jsonl",
   "training_records": 0

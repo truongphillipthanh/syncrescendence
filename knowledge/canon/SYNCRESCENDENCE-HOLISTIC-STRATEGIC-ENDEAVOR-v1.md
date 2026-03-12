@@ -332,6 +332,35 @@ The project therefore needs portfolio-level governance for widening:
 The strategic aim is not to avoid widening.
 It is to widen without sovereignty leakage.
 
+### 4.16 Intelligence Metabolism
+
+The shell must not only govern itself.
+It must metabolize external signal into durable internal intelligence.
+
+That means building lawful pipelines that can move from:
+
+- intake
+- triage
+- deterministic or intelligent transformation
+- verification
+- primary-source escalation
+- compaction into Sigma, canon, playbooks, operators, or other durable surfaces
+
+Acumen is the first major expression of this requirement.
+It is the shell's sovereign intake and first-pass triage plane for one important class of external signal.
+
+Augur / Perplexity sits downstream of that plane.
+Its role is reconnaissance and verification after promotion, not intake authority and not final authorship.
+
+The strategic point is larger than any one pipeline:
+
+- the shell should increasingly metabolize real external signal, not merely refine its own internal governance
+- verification should strengthen promotion and compaction rather than become a detached research hobby
+- intelligence products should widen only when the evidence path, sovereignty boundary, and compaction path are clear
+
+The system fails if it can only govern itself.
+It succeeds when lawful internal structure begins producing higher-yield external intelligence metabolism without sovereignty loss.
+
 ## 5. System Boundary
 
 The project currently recognizes three major macro layers:
@@ -409,6 +438,10 @@ The project has already completed:
 - completion of the tributary authority transition from structural proof to explicit `authority_bound` compatibility treatment
 - conversion of `office_harness_state` into a true repo-native proof family with append-only substrate and rematerialization
 - opening of the first repo-native `chat_ci` projection foothold without widening into hidden provider sovereignty
+- first executable Acumen intelligence-pipeline lane across registry-driven intake, triage, evidence, Dawn Brief compilation, and sequential runtime proof
+- closure of the normal Acumen batch path into an evidence-native route backed by append-only ledgers and rematerialized current-state surfaces
+- first truthful one-command Acumen live-batch entrypoint that is repo-complete and blocked only by external credentials
+- first lawful downstream Augur verification artifact family, including dossier generation, bridge state, and a packetized reconnaissance handoff for promoted items
 
 It is now entering the next phase:
 
@@ -422,6 +455,9 @@ It is now entering the next phase:
 - operationalization of that typed middle layer through validators, subordinate registries, compatibility receipts, multi-office metadata, and first widening artifacts
 - conversion of current-state seed families into append-only repo-native proof families with deterministic rematerialization before larger exocortex projection widening
 - first narrow exocortex-facing projection wave for proof-ready families, while non-ready families continue proof uplift instead of premature widening
+- transition from shell-centric hardening into intelligence throughput work where external signal is metabolized through lawful intake, verification, and compaction paths
+- first live-batch proof for Acumen once external credentials are available, followed by repeatable promoted-item verification throughput rather than one-off packet generation
+- widening from one intelligence product (`Dawn Brief`) toward a family of downstream products, research queues, and primary-source escalation surfaces
 
 This is the phase where the system has crossed from shell design into shell enforcement and controlled proof.
 

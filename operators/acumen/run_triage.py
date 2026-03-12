@@ -12,6 +12,26 @@ from typing import Any
 
 from build_triage_packet import build_triage_packet, resolve_channel
 from gemini_triage_adapter import DEFAULT_API_BASE, DEFAULT_MODEL, GeminiTriageError, invoke_gemini_packet
+try:
+    from .evidence_family import (
+        TRAINING_RUNTIME_PATH,
+        TRIAGE_RUNTIME_PATH,
+        ensure_surface_files,
+        load_jsonl as load_evidence_jsonl,
+        sha256_for_payload,
+        write_jsonl as write_evidence_jsonl,
+    )
+    from .record_evidence import record_decision_payload, record_model_call_payload, rematerialize_runtime
+except ImportError:
+    from evidence_family import (
+        TRAINING_RUNTIME_PATH,
+        TRIAGE_RUNTIME_PATH,
+        ensure_surface_files,
+        load_jsonl as load_evidence_jsonl,
+        sha256_for_payload,
+        write_jsonl as write_evidence_jsonl,
+    )
+    from record_evidence import record_decision_payload, record_model_call_payload, rematerialize_runtime
 from triage_contract import (
     TARGET_DEPTH_VALUES,
     TARGET_POLISH_VALUES,
@@ -65,13 +85,6 @@ def load_jsonl(path: Path) -> list[dict[str, Any]]:
         if isinstance(payload, dict):
             rows.append(payload)
     return rows
-
-
-def append_jsonl(path: Path, rows: list[dict[str, Any]]) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    with path.open("a", encoding="utf-8") as handle:
-        for row in rows:
-            handle.write(json.dumps(row, sort_keys=True) + "\n")
 
 
 def summarize_text(video: dict[str, Any], limit: int = 160) -> str:
@@ -160,7 +173,18 @@ def heuristic_decision(channel: dict[str, Any], video: dict[str, Any]) -> dict[s
 
 
 def packet_sha256(packet: dict[str, Any]) -> str:
-    return hashlib.sha256(json.dumps(packet, sort_keys=True, separators=(",", ":"), ensure_ascii=True).encode("utf-8")).hexdigest()
+    digest = hashlib.sha256(
+        json.dumps(packet, sort_keys=True, separators=(",", ":"), ensure_ascii=True).encode("utf-8")
+    ).hexdigest()
+    return f"sha256:{digest}"
+
+
+def normalize_sha256(value: str | None) -> str | None:
+    if value is None:
+        return None
+    if value.startswith("sha256:"):
+        return value
+    return f"sha256:{value}"
 
 
 def queue_existing_ids(queue_rows: list[dict[str, Any]]) -> set[str]:
@@ -172,6 +196,144 @@ def queue_existing_ids(queue_rows: list[dict[str, Any]]) -> set[str]:
     return existing
 
 
+def scalarize_mapping(payload: dict[str, Any]) -> dict[str, int | float | str | bool | None]:
+    sanitized: dict[str, int | float | str | bool | None] = {}
+    for key, value in payload.items():
+        if isinstance(value, (int, float, str, bool)) or value is None:
+            sanitized[str(key)] = value
+    return sanitized
+
+
+def classify_gemini_failure(message: str) -> str:
+    if "Missing Gemini API key" in message:
+        return "missing_api_key"
+    if "Prompt budget exceeded before invocation" in message:
+        return "prompt_budget_exceeded"
+    if "Token budget exceeded" in message:
+        return "token_budget_exceeded"
+    if "transport failure" in message:
+        return "transport_failure"
+    if "decision failed contract validation" in message:
+        return "decision_contract_failure"
+    if "malformed JSON decision" in message:
+        return "malformed_model_output"
+    if "HTTP " in message:
+        return "provider_http_error"
+    return "gemini_error"
+
+
+def build_model_call_payload(
+    *,
+    provider: str,
+    model: str,
+    mode: str,
+    channel_id: str,
+    video_id: str,
+    packet_id: str | None,
+    packet_path: Path | None,
+    packet_sha256: str | None,
+    input_summary: str | None,
+    outcome: dict[str, Any],
+    response_sha256: str | None,
+    structured_output: dict[str, Any] | None,
+    usage: dict[str, Any] | None = None,
+    cost: dict[str, Any] | None = None,
+) -> dict[str, Any]:
+    payload: dict[str, Any] = {
+        "provider": provider,
+        "model": model,
+        "operation": "acumen_triage",
+        "request_context": {
+            "channel_id": channel_id,
+            "video_id": video_id,
+            "mode": mode,
+        },
+        "response_capture": {
+            "policy": "metadata_only",
+            "response_sha256": normalize_sha256(response_sha256),
+            "structured_output_sha256": sha256_for_payload(structured_output) if structured_output is not None else None,
+            "schema_valid": bool(structured_output) and outcome.get("status") == "success",
+        },
+        "usage": scalarize_mapping(usage or {}),
+        "cost": scalarize_mapping(cost or {}),
+        "outcome": outcome,
+    }
+    if packet_id:
+        payload["request_context"]["packet_id"] = packet_id
+    if packet_path is not None:
+        payload["packet_path"] = str(packet_path)
+    if packet_sha256 is not None:
+        payload["packet_sha256"] = packet_sha256
+    if input_summary is not None:
+        payload["input_summary"] = input_summary
+    return payload
+
+
+def sync_runtime_surface(authoritative_path: Path, requested_path: Path) -> None:
+    if authoritative_path == requested_path:
+        return
+    rows = load_evidence_jsonl(authoritative_path)
+    write_evidence_jsonl(requested_path, rows)
+
+
+def classify_failure(row: dict[str, Any]) -> tuple[str, str]:
+    status = str(row.get("status", "")).strip() or "failed"
+    mode = str(row.get("mode", "")).strip()
+    reason = str(row.get("reason", "")).strip()
+
+    if status == "invalid_input" or reason == "invalid_input":
+        return "input_contract", "invalid_input"
+    if reason == "budget_guardrail":
+        return "guardrail", "budget_guardrail"
+    if reason == "missing_api_key":
+        return "credential", "missing_api_key"
+    if reason in {"prompt_budget_exceeded", "token_budget_exceeded"}:
+        return "guardrail", reason
+    if mode != "gemini":
+        return "input_contract", reason or status
+    if reason in {"provider_http_error", "transport_failure"}:
+        return "external_service", reason
+    if reason in {"decision_contract_failure", "malformed_model_output", "gemini_error"}:
+        return "external_service", reason
+    return "external_service", reason or status or "failed"
+
+
+def summarize_failures(rows: list[dict[str, Any]]) -> dict[str, Any] | None:
+    failed_rows = [row for row in rows if str(row.get("status", "")).strip() not in {"", "ok"}]
+    if not failed_rows:
+        return None
+
+    domains: dict[str, int] = {}
+    codes: dict[str, int] = {}
+    samples: list[dict[str, Any]] = []
+    for row in failed_rows:
+        domain, code = classify_failure(row)
+        domains[domain] = domains.get(domain, 0) + 1
+        codes[code] = codes.get(code, 0) + 1
+        if len(samples) < 3:
+            samples.append(
+                {
+                    "channel_id": row.get("channel_id"),
+                    "message": row.get("reason") or row.get("status"),
+                    "packet_id": row.get("packet_id"),
+                    "code": code,
+                    "domain": domain,
+                    "video_id": row.get("video_id"),
+                }
+            )
+
+    first = samples[0]
+    return {
+        "codes": codes,
+        "domains": domains,
+        "count": len(failed_rows),
+        "failure_code": first["code"],
+        "failure_domain": first["domain"],
+        "failure_message": first["message"],
+        "samples": samples,
+    }
+
+
 def main() -> int:
     args = parse_args()
     registry_path = Path(args.registry).expanduser().resolve()
@@ -180,10 +342,14 @@ def main() -> int:
     training_path = Path(args.training_jsonl).expanduser().resolve()
     status_path = Path(args.status_json).expanduser().resolve()
     artifact_dir = Path(args.artifact_dir).expanduser().resolve()
+    authoritative_queue_path = TRIAGE_RUNTIME_PATH.resolve()
+    authoritative_training_path = TRAINING_RUNTIME_PATH.resolve()
+    actor = "acumen.triage"
 
+    ensure_surface_files()
     registry = load_json(registry_path, {})
     poll_rows = load_jsonl(poll_path)
-    existing_ids = queue_existing_ids(load_jsonl(queue_path))
+    existing_ids = queue_existing_ids(load_evidence_jsonl(authoritative_queue_path))
 
     artifact_dir.mkdir(parents=True, exist_ok=True)
     packet_dir = artifact_dir / "packets"
@@ -191,8 +357,9 @@ def main() -> int:
     packet_dir.mkdir(parents=True, exist_ok=True)
     prompt_dir.mkdir(parents=True, exist_ok=True)
 
-    queue_rows: list[dict[str, Any]] = []
     training_rows: list[dict[str, Any]] = []
+    queued = 0
+    training_records = 0
     failures = 0
     skipped_existing = 0
     gemini_calls = 0
@@ -211,14 +378,41 @@ def main() -> int:
             packet = build_triage_packet(registry, channel_id, video)
         except SystemExit as exc:
             failures += 1
+            model_event = record_model_call_payload(
+                build_model_call_payload(
+                    provider="local",
+                    model="input-contract",
+                    mode=args.mode,
+                    channel_id=channel_id,
+                    video_id=video_id,
+                    packet_id=None,
+                    packet_path=None,
+                    packet_sha256=None,
+                    input_summary=summarize_text(video),
+                    outcome={
+                        "status": "failure",
+                        "reason": "invalid_input",
+                        "error_class": type(exc).__name__,
+                    },
+                    response_sha256=None,
+                    structured_output=None,
+                    usage={"attempts": 0},
+                    cost={"estimated_usd": 0.0},
+                ),
+                actor,
+                rematerialize=False,
+            )
+            training_records += 1
             training_rows.append(
                 {
                     "captured_at": utc_now(),
+                    "call_event_id": model_event["event_id"],
                     "video_id": video_id,
                     "channel_id": channel_id,
                     "mode": args.mode,
+                    "model": "input-contract",
                     "status": "invalid_input",
-                    "error": str(exc),
+                    "reason": "invalid_input",
                 }
             )
             continue
@@ -229,6 +423,7 @@ def main() -> int:
         prompt_path = prompt_dir / f"{packet_name}.md"
         prompt_path.write_text(prompt_preview, encoding="utf-8")
         packet_digest = packet_sha256(packet)
+        input_summary = summarize_text(video)
 
         active_mode = args.mode
         if active_mode == "auto":
@@ -246,18 +441,45 @@ def main() -> int:
         if active_mode == "gemini" and not live_allowed:
             if args.mode == "gemini":
                 failures += 1
+                model_event = record_model_call_payload(
+                    build_model_call_payload(
+                        provider="google",
+                        model=args.model,
+                        mode="gemini",
+                        channel_id=channel_id,
+                        video_id=video_id,
+                        packet_id=packet["packet_id"],
+                        packet_path=packet_path,
+                        packet_sha256=packet_digest,
+                        input_summary=input_summary,
+                        outcome={
+                            "status": "failure",
+                            "reason": "budget_guardrail",
+                            "error_class": "GuardrailBlocked",
+                        },
+                        response_sha256=None,
+                        structured_output=None,
+                        usage={"attempts": 0},
+                        cost={
+                            "estimated_usd": round(estimated_cost, 6),
+                            "estimated_cost_per_call_usd": args.estimated_cost_per_call_usd,
+                        },
+                    ),
+                    actor,
+                    rematerialize=False,
+                )
+                training_records += 1
                 training_rows.append(
                     {
                         "captured_at": utc_now(),
+                        "call_event_id": model_event["event_id"],
                         "packet_id": packet["packet_id"],
                         "video_id": video_id,
                         "channel_id": channel_id,
                         "model": args.model,
                         "mode": "gemini",
                         "status": "skipped_budget_guardrail",
-                        "packet_path": str(packet_path),
-                        "prompt_path": str(prompt_path),
-                        "packet_sha256": packet_digest,
+                        "reason": "budget_guardrail",
                         "estimated_cost_usd": round(estimated_cost, 6),
                     }
                 )
@@ -291,16 +513,57 @@ def main() -> int:
                     usage_metadata=result["usage_metadata"],
                     budget_guardrails=budget_guardrails,
                     source_mode="gemini",
-                    abstract=summarize_text(video),
+                    abstract=input_summary,
                 )
-                gemini_calls += 1
-                estimated_cost += args.estimated_cost_per_call_usd
-                queue_rows.append(record)
+                model_event = record_model_call_payload(
+                    build_model_call_payload(
+                        provider="google",
+                        model=args.model,
+                        mode="gemini",
+                        channel_id=channel_id,
+                        video_id=video_id,
+                        packet_id=packet["packet_id"],
+                        packet_path=packet_path,
+                        packet_sha256=packet_digest,
+                        input_summary=input_summary,
+                        outcome={
+                            "status": "success",
+                            "decision": record["decision"],
+                            "reason": None,
+                        },
+                        response_sha256=result["response_sha256"],
+                        structured_output=result["decision"],
+                        usage={
+                            "attempts": result["attempts_used"],
+                            **scalarize_mapping(result["usage_metadata"]),
+                        },
+                        cost={"estimated_usd": args.estimated_cost_per_call_usd},
+                    ),
+                    actor,
+                    rematerialize=False,
+                )
+                training_records += 1
+                decision_event = record_decision_payload(
+                    {
+                        **record,
+                        "model_call_event_id": model_event["event_id"],
+                        "packet_path": str(packet_path),
+                        "packet_sha256": packet_digest,
+                        "input_summary": input_summary,
+                    },
+                    actor,
+                    rematerialize=False,
+                )
+                queued += 1
                 if video_id:
                     existing_ids.add(video_id)
+                gemini_calls += 1
+                estimated_cost += args.estimated_cost_per_call_usd
                 training_rows.append(
                     {
                         "captured_at": utc_now(),
+                        "call_event_id": model_event["event_id"],
+                        "decision_event_id": decision_event["event_id"],
                         "packet_id": packet["packet_id"],
                         "video_id": video_id,
                         "channel_id": channel_id,
@@ -308,12 +571,7 @@ def main() -> int:
                         "mode": "gemini",
                         "status": "ok",
                         "attempts": result["attempts_used"],
-                        "packet_path": str(packet_path),
-                        "prompt_path": str(prompt_path),
-                        "packet_sha256": packet_digest,
-                        "response_sha256": result["response_sha256"],
-                        "usage_metadata": result["usage_metadata"],
-                        "budget_guardrails": budget_guardrails,
+                        "reason": "",
                         "decision": record["decision"],
                         "target_depth": record["target_depth"],
                         "target_polish": record["target_polish"],
@@ -323,20 +581,44 @@ def main() -> int:
                 continue
             except GeminiTriageError as exc:
                 failures += 1
+                reason = classify_gemini_failure(str(exc))
+                model_event = record_model_call_payload(
+                    build_model_call_payload(
+                        provider="google",
+                        model=args.model,
+                        mode="gemini",
+                        channel_id=channel_id,
+                        video_id=video_id,
+                        packet_id=packet["packet_id"],
+                        packet_path=packet_path,
+                        packet_sha256=packet_digest,
+                        input_summary=input_summary,
+                        outcome={
+                            "status": "failure",
+                            "reason": reason,
+                            "error_class": type(exc).__name__,
+                        },
+                        response_sha256=None,
+                        structured_output=None,
+                        usage={"attempts_requested": args.max_retries + 1},
+                        cost={"estimated_usd": 0.0},
+                    ),
+                    actor,
+                    rematerialize=False,
+                )
+                training_records += 1
                 training_rows.append(
                     {
                         "captured_at": utc_now(),
+                        "call_event_id": model_event["event_id"],
                         "packet_id": packet["packet_id"],
                         "video_id": video_id,
                         "channel_id": channel_id,
                         "model": args.model,
                         "mode": "gemini",
                         "status": "failed",
-                        "error": str(exc),
+                        "reason": reason,
                         "attempts": args.max_retries + 1,
-                        "packet_path": str(packet_path),
-                        "prompt_path": str(prompt_path),
-                        "packet_sha256": packet_digest,
                     }
                 )
                 continue
@@ -345,19 +627,42 @@ def main() -> int:
         errors = validate_decision(packet, payload)
         if errors:
             failures += 1
+            model_event = record_model_call_payload(
+                build_model_call_payload(
+                    provider="local",
+                    model="deterministic-heuristic",
+                    mode="heuristic",
+                    channel_id=channel_id,
+                    video_id=video_id,
+                    packet_id=packet["packet_id"],
+                    packet_path=packet_path,
+                    packet_sha256=packet_digest,
+                    input_summary=input_summary,
+                    outcome={
+                        "status": "failure",
+                        "reason": "decision_contract_failure",
+                        "error_class": "DecisionValidationError",
+                    },
+                    response_sha256=None,
+                    structured_output=payload,
+                    usage={"attempts": 0},
+                    cost={"estimated_usd": 0.0},
+                ),
+                actor,
+                rematerialize=False,
+            )
+            training_records += 1
             training_rows.append(
                 {
                     "captured_at": utc_now(),
+                    "call_event_id": model_event["event_id"],
                     "packet_id": packet["packet_id"],
                     "video_id": video_id,
                     "channel_id": channel_id,
-                    "model": "heuristic",
+                    "model": "deterministic-heuristic",
                     "mode": "heuristic",
                     "status": "failed",
-                    "error": " | ".join(errors),
-                    "packet_path": str(packet_path),
-                    "prompt_path": str(prompt_path),
-                    "packet_sha256": packet_digest,
+                    "reason": "decision_contract_failure",
                 }
             )
             continue
@@ -376,47 +681,94 @@ def main() -> int:
                 "max_estimated_cost_usd": args.max_estimated_cost_usd,
             },
             source_mode="heuristic",
-            abstract=summarize_text(video),
+            abstract=input_summary,
         )
-        queue_rows.append(record)
+        model_event = record_model_call_payload(
+            build_model_call_payload(
+                provider="local",
+                model="deterministic-heuristic",
+                mode="heuristic",
+                channel_id=channel_id,
+                video_id=video_id,
+                packet_id=packet["packet_id"],
+                packet_path=packet_path,
+                packet_sha256=packet_digest,
+                input_summary=input_summary,
+                outcome={
+                    "status": "success",
+                    "decision": record["decision"],
+                    "reason": None,
+                },
+                response_sha256=None,
+                structured_output=payload,
+                usage={"attempts": 0},
+                cost={"estimated_usd": 0.0},
+            ),
+            actor,
+            rematerialize=False,
+        )
+        training_records += 1
+        decision_event = record_decision_payload(
+            {
+                **record,
+                "model_call_event_id": model_event["event_id"],
+                "packet_path": str(packet_path),
+                "packet_sha256": packet_digest,
+                "input_summary": input_summary,
+            },
+            actor,
+            rematerialize=False,
+        )
+        queued += 1
         if video_id:
             existing_ids.add(video_id)
         training_rows.append(
             {
                 "captured_at": utc_now(),
+                "call_event_id": model_event["event_id"],
+                "decision_event_id": decision_event["event_id"],
                 "packet_id": packet["packet_id"],
                 "video_id": video_id,
                 "channel_id": channel_id,
-                "model": "heuristic",
+                "model": "deterministic-heuristic",
                 "mode": "heuristic",
                 "status": "ok",
+                "reason": "",
                 "attempts": 0,
-                "packet_path": str(packet_path),
-                "prompt_path": str(prompt_path),
-                "packet_sha256": packet_digest,
                 "decision": record["decision"],
                 "target_depth": record["target_depth"],
                 "target_polish": record["target_polish"],
             }
         )
 
-    append_jsonl(queue_path, queue_rows)
-    append_jsonl(training_path, training_rows)
+    rematerialize_runtime()
+    sync_runtime_surface(authoritative_queue_path, queue_path)
+    sync_runtime_surface(authoritative_training_path, training_path)
+
+    failure_summary = summarize_failures(training_rows)
 
     status = {
         "captured_at": utc_now(),
         "registry": str(registry_path),
         "poll_jsonl": str(poll_path),
-        "queue_jsonl": str(queue_path),
-        "training_jsonl": str(training_path),
+        "queue_jsonl": str(authoritative_queue_path),
+        "training_jsonl": str(authoritative_training_path),
+        "requested_queue_jsonl": str(queue_path),
+        "requested_training_jsonl": str(training_path),
         "artifact_dir": str(artifact_dir),
         "mode": args.mode,
         "processed": len(poll_rows),
-        "queued": len(queue_rows),
-        "training_records": len(training_rows),
+        "queued": queued,
+        "training_records": training_records,
         "failures": failures,
         "skipped_existing": skipped_existing,
         "ok": failures == 0,
+        "runtime_surface_authority": {
+            "triage_runtime": str(authoritative_queue_path),
+            "training_runtime": str(authoritative_training_path),
+            "triage_runtime_mirrored_to_requested_path": authoritative_queue_path != queue_path,
+            "training_runtime_mirrored_to_requested_path": authoritative_training_path != training_path,
+        },
         "external_dependencies": {
             "gemini_api": {
                 "required": args.mode == "gemini" or (args.mode == "auto" and gemini_available),
@@ -437,9 +789,14 @@ def main() -> int:
             }
         },
     }
+    if failure_summary is not None:
+        status["failure_code"] = failure_summary["failure_code"]
+        status["failure_domain"] = failure_summary["failure_domain"]
+        status["failure_message"] = failure_summary["failure_message"]
+        status["failure_summary"] = failure_summary
     status_path.parent.mkdir(parents=True, exist_ok=True)
     status_path.write_text(json.dumps(status, indent=2, sort_keys=True) + "\n", encoding="utf-8")
-    print(queue_path)
+    print(authoritative_queue_path)
     return 0 if failures == 0 else 1
 
 

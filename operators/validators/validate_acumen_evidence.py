@@ -94,6 +94,12 @@ def require_digest(value: str | None, findings: list[Finding], scope: str) -> No
         add_finding(findings, scope, "must be a sha256 digest")
 
 
+def require_optional_digest(value: Any, findings: list[Finding], scope: str) -> None:
+    if value is None:
+        return
+    require_digest(str(value), findings, scope)
+
+
 def validate_policy(policy: dict[str, Any], findings: list[Finding], scope: str) -> None:
     expected = {
         "prompt_capture": "metadata_only",
@@ -157,6 +163,12 @@ def validate_decision_event(event: dict[str, Any], findings: list[Finding], line
             add_finding(findings, f"{scope}.decision_record.decision", "must be a supported triage decision")
         if record.get("priority_band") not in ALLOWED_PRIORITY_BANDS:
             add_finding(findings, f"{scope}.decision_record.priority_band", "must be Tier 1, Tier 2, or Tier 3")
+        model_call_event_id = record.get("model_call_event_id")
+        if model_call_event_id is not None and not TRAINING_EVENT_ID_RE.fullmatch(str(model_call_event_id)):
+            add_finding(findings, f"{scope}.decision_record.model_call_event_id", "must match atc-YYYYMMDD-NNNN when present")
+        primary_flag_reason = record.get("primary_flag_reason")
+        if primary_flag_reason is not None and not isinstance(primary_flag_reason, str):
+            add_finding(findings, f"{scope}.decision_record.primary_flag_reason", "must be a string or null when present")
         add_forbidden_findings(findings, record, f"{scope}.decision_record")
         if digest and sha256_for_payload(record) != digest:
             add_finding(findings, f"{scope}.decision_sha256", "does not match decision_record bytes")
@@ -202,20 +214,47 @@ def validate_training_event(event: dict[str, Any], findings: list[Finding], line
         prompt_capture = require_mapping(record, "prompt_capture", findings, f"{scope}.training_record")
         response_capture = require_mapping(record, "response_capture", findings, f"{scope}.training_record")
         outcome = require_mapping(record, "outcome", findings, f"{scope}.training_record")
+        request_context = record.get("request_context", {})
+        if isinstance(request_context, dict) and any(
+            not isinstance(item, (int, float, str, bool, type(None))) for item in request_context.values()
+        ):
+            add_finding(findings, f"{scope}.training_record.request_context", "must contain scalar values only")
         if packet is not None:
             validate_packet_provenance(packet, findings, f"{scope}.training_record.packet_provenance")
         if prompt_capture is not None:
             if prompt_capture.get("policy") != "metadata_only":
                 add_finding(findings, f"{scope}.training_record.prompt_capture.policy", "must equal 'metadata_only'")
-            prompt_sha = prompt_capture.get("prompt_sha256")
-            if prompt_sha is not None:
-                require_digest(str(prompt_sha), findings, f"{scope}.training_record.prompt_capture.prompt_sha256")
-        if response_capture is not None and "schema_valid" in response_capture and not isinstance(response_capture.get("schema_valid"), bool):
-            add_finding(findings, f"{scope}.training_record.response_capture.schema_valid", "must be a boolean")
+            require_optional_digest(
+                prompt_capture.get("prompt_sha256"),
+                findings,
+                f"{scope}.training_record.prompt_capture.prompt_sha256",
+            )
+            input_summary = prompt_capture.get("input_summary")
+            if input_summary is not None and not isinstance(input_summary, str):
+                add_finding(findings, f"{scope}.training_record.prompt_capture.input_summary", "must be a string when present")
+        if response_capture is not None:
+            if response_capture.get("policy") != "metadata_only":
+                add_finding(findings, f"{scope}.training_record.response_capture.policy", "must equal 'metadata_only'")
+            if "schema_valid" in response_capture and not isinstance(response_capture.get("schema_valid"), bool):
+                add_finding(findings, f"{scope}.training_record.response_capture.schema_valid", "must be a boolean")
+            require_optional_digest(
+                response_capture.get("response_sha256"),
+                findings,
+                f"{scope}.training_record.response_capture.response_sha256",
+            )
+            require_optional_digest(
+                response_capture.get("structured_output_sha256"),
+                findings,
+                f"{scope}.training_record.response_capture.structured_output_sha256",
+            )
         if outcome is not None:
             status = require_string(outcome, "status", findings, f"{scope}.training_record.outcome")
             if status is not None and status not in {"success", "failure"}:
                 add_finding(findings, f"{scope}.training_record.outcome.status", "must be 'success' or 'failure'")
+            if "reason" in outcome and outcome.get("reason") is not None and not isinstance(outcome.get("reason"), str):
+                add_finding(findings, f"{scope}.training_record.outcome.reason", "must be a string or null when present")
+            if "decision" in outcome and outcome.get("decision") is not None and outcome.get("decision") not in ALLOWED_DECISIONS:
+                add_finding(findings, f"{scope}.training_record.outcome.decision", "must be a supported triage decision when present")
         for bucket in ("usage", "cost"):
             value = record.get(bucket, {})
             if not isinstance(value, dict):
