@@ -11,7 +11,7 @@
 - `syncrescendence.com` is secured
 - OpenClaw gateway is live on the MacBook Air at `127.0.0.1:18789`
 - Ajna's current primary model in live OpenClaw config is `anthropic/claude-sonnet-4-5`
-- Ajna is now running cleanly on OpenClaw `2026.3.1`
+- Ajna is now running cleanly on OpenClaw `2026.3.12`
 - OpenClaw workspace path is `/Users/system/.openclaw/workspace`
 - Browser is not denied in OpenClaw
 - Ajna has `playwright-mcp` skill(s) installed
@@ -45,7 +45,7 @@
 - Ajna's OpenClaw workspace instruction surface has been compacted below the 20k bootstrap ceiling
 - Mac mini OpenClaw gateway is live on `127.0.0.1:18789`
 - Psyche now runs on `openai-codex/gpt-5.3-codex` using the ChatGPT Plus account `truongphillipthanh@icloud.com`
-- Mac mini OpenClaw is now running `2026.3.1`
+- Mac mini OpenClaw is now running `2026.3.12`
 - Mac mini channels are intentionally cleared in runtime config pending future re-onboarding
 
 ## Current Truth Split

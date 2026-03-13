@@ -3,9 +3,14 @@
     "codex": "/opt/homebrew/bin/codex",
     "gemini": "/opt/homebrew/bin/gemini",
     "openclaw": "/opt/homebrew/bin/openclaw",
+    "openclaw_version": "OpenClaw 2026.3.12 (6472949)",
     "tmux": "/opt/homebrew/bin/tmux"
   },
-  "captured_at": "2026-03-05T07:24:43Z",
+  "captured_at": "2026-03-13T07:04:56Z",
+  "channels": {
+    "configured": false,
+    "running": false
+  },
   "constellation_session_present": true,
   "constellation_windows": [
     "1: psyche* (1 panes) [80x24] [layout b25d,80x24,0,0,0] @0 (active)",
@@ -19,9 +24,9 @@
   "launch_agent": {
     "label": "com.syncrescendence.constellation-stage1",
     "present": true,
-    "running": false
+    "running": true
   },
-  "psyche_workspace_bytes": 5823,
+  "psyche_workspace_bytes": 5847,
   "psyche_workspace_path": "/Users/home/.openclaw/workspace/AGENTS.md",
   "psyche_workspace_present": true,
   "remote_alias": "mini",

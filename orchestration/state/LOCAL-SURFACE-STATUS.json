@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-03-05T15:52:03Z",
+  "captured_at": "2026-03-13T06:55:21Z",
   "claude_code": {
     "authenticated": true,
     "available": true,
@@ -16,13 +16,13 @@
     "installed": true,
     "launch_agent": {
       "loaded": true,
-      "pid": "5249",
+      "pid": "1179",
       "state": "active"
     },
     "tunnel_id": "d3a8d735-a776-46ab-9dbf-ab7b87ec4cf2",
     "tunnel_name": "syncrescendence-ontology",
     "tunnel_present": true,
-    "version": "cloudflared version 2026.2.0 (built 2026-02-06T14:21:32Z)"
+    "version": "cloudflared version 2026.3.0 (built 2026-03-06T12:53:40Z)"
   },
   "gcloud": {
     "cli": {
@@ -89,15 +89,15 @@
   "ontology": {
     "domain_dig": {
       "records": [
-        "172.67.214.249",
-        "104.21.75.60"
+        "104.21.75.60",
+        "172.67.214.249"
       ],
       "resolves": true
     },
     "domain_dns": {
       "addresses": [
-        "172.67.214.249",
-        "104.21.75.60"
+        "104.21.75.60",
+        "172.67.214.249"
       ],
       "aliases": [],
       "host": "syncrescendence.com",
@@ -105,26 +105,26 @@
     },
     "domain_health": {
       "payload": {
-        "config_snapshot_count": 2,
+        "config_snapshot_count": 8,
         "db_path": "/Users/system/syncrescendence/orchestration/state/ontology-v1.sqlite3",
-        "entity_count": 36,
-        "event_count": 31,
+        "entity_count": 59,
+        "event_count": 48,
         "status": "ok"
       },
       "reachable": true,
       "status_code": 200
     },
     "domain_health_edge": {
-      "address": "172.67.214.249",
+      "address": "104.21.75.60",
       "reachable": true,
       "status_code": 200
     },
     "local_api": {
       "payload": {
-        "config_snapshot_count": 2,
+        "config_snapshot_count": 8,
         "db_path": "/Users/system/syncrescendence/orchestration/state/ontology-v1.sqlite3",
-        "entity_count": 36,
-        "event_count": 31,
+        "entity_count": 59,
+        "event_count": 48,
         "status": "ok"
       },
       "reachable": true,
@@ -132,10 +132,10 @@
     },
     "local_proxy": {
       "payload": {
-        "config_snapshot_count": 2,
+        "config_snapshot_count": 8,
         "db_path": "/Users/system/syncrescendence/orchestration/state/ontology-v1.sqlite3",
-        "entity_count": 36,
-        "event_count": 31,
+        "entity_count": 59,
+        "event_count": 48,
         "status": "ok"
       },
       "reachable": true,
@@ -144,39 +144,152 @@
   },
   "openclaw_channels": {
     "available": true,
-    "timed_out": true
+    "captured_at_ms": 1773384925389,
+    "channel_accounts": {
+      "discord": [
+        {
+          "accountId": "default",
+          "application": {
+            "flags": 8953856,
+            "id": "1469043297174421618",
+            "intents": {
+              "guildMembers": "limited",
+              "messageContent": "limited",
+              "presence": "limited"
+            }
+          },
+          "bot": {
+            "id": "1469043297174421618",
+            "username": "Ajna"
+          },
+          "configured": true,
+          "connected": false,
+          "enabled": true,
+          "lastConnectedAt": null,
+          "lastDisconnect": null,
+          "lastError": null,
+          "lastEventAt": null,
+          "lastInboundAt": null,
+          "lastOutboundAt": null,
+          "lastProbeAt": 1773384925708,
+          "lastStartAt": 1773384862551,
+          "lastStopAt": null,
+          "probe": {
+            "application": {
+              "flags": 8953856,
+              "id": "1469043297174421618",
+              "intents": {
+                "guildMembers": "limited",
+                "messageContent": "limited",
+                "presence": "limited"
+              }
+            },
+            "bot": {
+              "id": "1469043297174421618",
+              "username": "Ajna"
+            },
+            "elapsedMs": 319,
+            "error": null,
+            "ok": true,
+            "status": null
+          },
+          "reconnectAttempts": 0,
+          "running": true,
+          "tokenSource": "config",
+          "tokenStatus": "available"
+        }
+      ],
+      "slack": [
+        {
+          "accountId": "default",
+          "appTokenSource": "config",
+          "appTokenStatus": "available",
+          "botTokenSource": "config",
+          "botTokenStatus": "available",
+          "configured": true,
+          "enabled": true,
+          "lastError": null,
+          "lastInboundAt": null,
+          "lastOutboundAt": null,
+          "lastProbeAt": 1773384925884,
+          "lastStartAt": 1773384862553,
+          "lastStopAt": null,
+          "probe": {
+            "bot": {
+              "id": "U0AL99XAPFX",
+              "name": "ajna"
+            },
+            "elapsedMs": 175,
+            "ok": true,
+            "status": 200,
+            "team": {
+              "id": "T0AJD6Z6MM5",
+              "name": "syncrescendence"
+            }
+          },
+          "running": true,
+          "userTokenStatus": "missing"
+        }
+      ]
+    },
+    "channels": {
+      "discord": {
+        "configured": true,
+        "lastError": null,
+        "lastProbeAt": 1773384925708,
+        "lastStartAt": 1773384862551,
+        "lastStopAt": null,
+        "probe": {
+          "application": {
+            "flags": 8953856,
+            "id": "1469043297174421618",
+            "intents": {
+              "guildMembers": "limited",
+              "messageContent": "limited",
+              "presence": "limited"
+            }
+          },
+          "bot": {
+            "id": "1469043297174421618",
+            "username": "Ajna"
+          },
+          "elapsedMs": 319,
+          "error": null,
+          "ok": true,
+          "status": null
+        },
+        "running": true,
+        "tokenSource": "config"
+      },
+      "slack": {
+        "appTokenSource": "config",
+        "botTokenSource": "config",
+        "configured": true,
+        "lastError": null,
+        "lastProbeAt": 1773384925884,
+        "lastStartAt": 1773384862553,
+        "lastStopAt": null,
+        "probe": {
+          "bot": {
+            "id": "U0AL99XAPFX",
+            "name": "ajna"
+          },
+          "elapsedMs": 175,
+          "ok": true,
+          "status": 200,
+          "team": {
+            "id": "T0AJD6Z6MM5",
+            "name": "syncrescendence"
+          }
+        },
+        "running": true
+      }
+    }
   },
   "wrangler": {
     "cli": {
-      "account_id": "b76f644c19db95eb0dfc2b6db1e7186d",
-      "account_name": "Icloud.truongphillipthanh@gmail.com's Account",
-      "auth_type": "OAuth Token",
-      "authenticated": true,
-      "available": true,
-      "email": "icloud.truongphillipthanh@gmail.com",
-      "token_permissions": [
-        "account:read",
-        "user:read",
-        "workers:write",
-        "workers_kv:write",
-        "workers_routes:write",
-        "workers_scripts:write",
-        "workers_tail:read",
-        "d1:write",
-        "pages:write",
-        "zone:read",
-        "ssl_certs:write",
-        "ai:write",
-        "ai-search:write",
-        "ai-search:run",
-        "queues:write",
-        "pipelines:write",
-        "secrets_store:write",
-        "containers:write",
-        "cloudchamber:write",
-        "connectivity:admin",
-        "offline_access"
-      ]
+      "available": false,
+      "error": "\u001b[31m\u2718 \u001b[41;31m[\u001b[41;97mERROR\u001b[41;31m]\u001b[0m \u001b[1mReceived a malformed response from the API\u001b[0m\n\n  <html>\n  <head><title>502 Bad Gateway</title></head>\n  <body>\n  <center><h1>502 Bad Gateway</h1></cente... (length = 158)\n\n  GET /user -> 502 Bad Gateway\n  \n  If you think this is a bug, please open an issue at: \u001b[4mhttps://github.com/cloudflare/workers-sdk/issues/new/choose\u001b[0m\n\n\n\ud83e\udeb5  Logs were written to \"/Users/system/Library/Preferences/.wrangler/logs/wrangler-2026-03-13_06-55-27_591.log\""
     },
     "keychain": {
       "cloudflare_account_id": {

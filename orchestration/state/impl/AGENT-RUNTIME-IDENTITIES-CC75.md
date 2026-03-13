@@ -29,10 +29,10 @@
   - Claude token auth restored
   - gateway daemon repaired
   - stale session-store shape repaired
-  - OpenClaw upgraded to `2026.3.1`
+  - OpenClaw upgraded to `2026.3.12`
 
 - Psyche:
-  - OpenClaw upgraded to `2026.3.1`
+  - OpenClaw upgraded to `2026.3.12`
   - repo-managed workspace surface redeployed
   - gateway daemon reinstalled
   - session-store reset and revalidated

@@ -46,6 +46,7 @@ def main() -> int:
     hostname = remote_text("hostname")
     tmux_path = remote_text("PATH=/opt/homebrew/bin:$PATH; command -v tmux")
     openclaw_path = remote_text("PATH=/opt/homebrew/bin:$PATH; command -v openclaw")
+    openclaw_version = remote_text("PATH=/opt/homebrew/bin:$PATH; openclaw --version")
     codex_path = remote_text("PATH=/opt/homebrew/bin:$PATH; command -v codex")
     gemini_path = remote_text("PATH=/opt/homebrew/bin:$PATH; command -v gemini")
     repo_present = run_remote(f"test -d {REMOTE_REPO!s}").returncode == 0
@@ -61,7 +62,12 @@ def main() -> int:
         f"launchctl print gui/$(id -u)/{LAUNCH_AGENT_LABEL}"
     )
     launch_agent_present = launch_agent_probe.returncode == 0
-    launch_agent_running = "state = running" in (launch_agent_probe.stdout or "")
+    launch_agent_stdout = launch_agent_probe.stdout or ""
+    launch_agent_running = launch_agent_present and (
+        "state = running" in launch_agent_stdout
+        or "pid =" in launch_agent_stdout
+        or "active count =" in launch_agent_stdout
+    )
 
     git_probe = run_remote(
         f"PATH=/opt/homebrew/bin:$PATH; {REMOTE_GIT} -C {REMOTE_REPO} status --short --branch"
@@ -69,6 +75,23 @@ def main() -> int:
     git_native_ready = git_probe.returncode == 0
     git_probe_error = (git_probe.stderr or git_probe.stdout).strip() if not git_native_ready else ""
     xcode_license_blocked = "xcode license" in git_probe_error.lower()
+
+    channels_probe = run_remote(
+        "PATH=/opt/homebrew/bin:$PATH; openclaw channels status --probe --json"
+    )
+    channels_configured = False
+    channels_running = False
+    if channels_probe.returncode == 0:
+        try:
+            channels_payload = json.loads(channels_probe.stdout or "{}")
+        except json.JSONDecodeError:
+            channels_payload = {}
+        channels = channels_payload.get("channels")
+        if isinstance(channels, dict) and channels:
+            channels_configured = True
+            channels_running = any(
+                isinstance(item, dict) and bool(item.get("running")) for item in channels.values()
+            )
 
     payload = {
         "captured_at": utc_now(),
@@ -82,6 +105,7 @@ def main() -> int:
         "binaries": {
             "tmux": tmux_path or None,
             "openclaw": openclaw_path or None,
+            "openclaw_version": openclaw_version or None,
             "codex": codex_path or None,
             "gemini": gemini_path or None,
         },
@@ -92,6 +116,10 @@ def main() -> int:
             "label": LAUNCH_AGENT_LABEL,
             "present": launch_agent_present,
             "running": launch_agent_running,
+        },
+        "channels": {
+            "configured": channels_configured,
+            "running": channels_running,
         },
         "git_native_ready": git_native_ready,
         "xcode_license_blocked": xcode_license_blocked,
@@ -113,11 +141,14 @@ def main() -> int:
         f"- Psyche workspace bytes: `{payload['psyche_workspace_bytes']}`",
         f"- tmux path: `{payload['binaries']['tmux']}`",
         f"- OpenClaw path: `{payload['binaries']['openclaw']}`",
+        f"- OpenClaw version: `{payload['binaries']['openclaw_version']}`",
         f"- Codex path: `{payload['binaries']['codex']}`",
         f"- Gemini path: `{payload['binaries']['gemini']}`",
         f"- Constellation session present: `{payload['constellation_session_present']}`",
         f"- LaunchAgent present: `{payload['launch_agent']['present']}`",
         f"- LaunchAgent running: `{payload['launch_agent']['running']}`",
+        f"- Channels configured: `{payload['channels']['configured']}`",
+        f"- Any channels running: `{payload['channels']['running']}`",
         f"- Git-native ready: `{payload['git_native_ready']}`",
         f"- Xcode license blocked: `{payload['xcode_license_blocked']}`",
         "",

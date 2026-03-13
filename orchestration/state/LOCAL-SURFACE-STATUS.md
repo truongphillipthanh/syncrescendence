@@ -1,6 +1,6 @@
 # Local Surface Status
 
-**Captured**: 2026-03-05T15:52:03Z
+**Captured**: 2026-03-13T06:55:21Z
 
 ## Auth Surfaces
 
@@ -11,23 +11,25 @@
 - `gcloud` authenticated: `True`
 - `gcloud` active account: `syncrescendence@gmail.com`
 - `gcloud` keychain pointer present: `True`
-- `wrangler` authenticated: `True`
-- `wrangler` email: `icloud.truongphillipthanh@gmail.com`
-- `wrangler` account id: `b76f644c19db95eb0dfc2b6db1e7186d`
+- `wrangler` authenticated: `None`
+- `wrangler` email: `None`
+- `wrangler` account id: `None`
 - Cloudflare account-id keychain pointer present: `True`
 - Manus keychain pointer present: `True`
 - Manus API reachable: `True`
 
 ## OpenClaw Channels
 
-- `slack` running: `None`
-- `slack` probe ok: `None`
+- `slack` running: `True`
+- `slack` probe ok: `True`
 - `slack` last inbound observed: `None`
 - `slack` last outbound observed: `None`
-- `discord` running: `None`
-- `discord` probe ok: `None`
+- `slack` workspace: `syncrescendence` (`T0AJD6Z6MM5`)
+- `discord` running: `True`
+- `discord` probe ok: `True`
 - `discord` last inbound observed: `None`
 - `discord` last outbound observed: `None`
+- `discord` bot: `Ajna` (`1469043297174421618`)
 
 ## Ontology Domain Readiness
 
