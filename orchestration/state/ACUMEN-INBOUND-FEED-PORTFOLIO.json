@@ -1,0 +1,36 @@
+{
+  "counts": {
+    "ambiguous_target": 0,
+    "blocked_identity": 0,
+    "entry_count": 0,
+    "invalid_manifest_count": 0,
+    "manifest_count": 0,
+    "portfolio_only": 0,
+    "registry_ready": 0,
+    "seed_row_count": 0,
+    "unresolved_platform_id": 0,
+    "valid_manifest_count": 0
+  },
+  "current_registry_path": "runtime/acumen/registry.json",
+  "entries": [],
+  "generated_at": "2026-03-13T21:06:24Z",
+  "intake_authority": "Acumen remains the sole shared intake authority; this portfolio and seed are preview surfaces only.",
+  "manifests": [],
+  "manual_boundary": "Browser/session capture, identity confirmation, and stable-ID resolution remain upstream manual work. This importer only preserves preview state and prepares seed rows for the existing Acumen registry path.",
+  "merge_preview": {
+    "existing_registry_channels": 2,
+    "merge_command": "python3 operators/acumen/init_registry.py --seed runtime/acumen/inbound-feed-import-seed.json --output runtime/acumen/registry.json --merge",
+    "merged_registry_channels": 2,
+    "seed_rows_ready": 0,
+    "strict_validation_command": "python3 operators/acumen/validate_registry.py --registry runtime/acumen/registry.json --strict",
+    "validated_with_existing_logic": true
+  },
+  "runtime_surfaces": {
+    "portfolio_json": "orchestration/state/ACUMEN-INBOUND-FEED-PORTFOLIO.json",
+    "portfolio_md": "orchestration/state/ACUMEN-INBOUND-FEED-PORTFOLIO.md",
+    "seed_output": "runtime/acumen/inbound-feed-import-seed.json"
+  },
+  "schema_version": "acumen.inbound-feed.portfolio/v1",
+  "seed_rows": [],
+  "source_manifest_dir": "runtime/acumen/inbound-feed-manifests"
+}

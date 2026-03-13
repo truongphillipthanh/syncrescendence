@@ -467,6 +467,10 @@ It is now entering the next phase:
 - recognition that the next real upstream leg is not dissemination-first account wiring but five-account inbound curation for `acumen`, `coherence`, `efficacy`, `mastery`, and `transcendence`
 - reactivation of the older feedcraft doctrine in stripped-down form: curated feeds as cognitive substrate engineering, recon before mutation, preserved manifests, portfolio-before-registry, and role-bound widening
 - explicit separation between already-held chain-email identities and the still-external frontier of platform-account creation, browser capture, and platform-specific session execution
+- first lawful five-account inbound-feed constellation and role-map surfaces in the validated shell
+- first executable inbound manifest validator, import-preview operator, portfolio preview, and policy-bearing telemetry family
+- first strict portfolio-policy enforcement in the live Acumen registry path, making widened intake an explicitly governed act rather than a structurally neutral one
+- transition from building inbound-feed law to needing actual witness state: manifests, lineage, seed rows, and first admitted policy-bound rows
 
 This is the phase where the system has crossed from shell design into shell enforcement and controlled proof.
 

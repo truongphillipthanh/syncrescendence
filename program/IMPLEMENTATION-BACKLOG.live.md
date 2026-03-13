@@ -658,16 +658,37 @@ First normalized set:
 - **lineage_or_origin**: Campaign 12 synthesis plus canon mining across five-account architecture, platform grammar, feedcraft, and feed curation
 
 1. land the five-account inbound feed constellation contract and role map
-   Status: staged
+   Status: completed
 2. land the inbound capture-and-import contract plus manifest family
-   Status: staged
+   Status: completed
 3. land strict manifest validation and inbound import preview surfaces
-   Status: staged
+   Status: completed, strict policy-complete seed emission still pending
 4. land portfolio policy and registry enforcement over curated feeds
-   Status: staged
+   Status: completed
 5. land cross-chain routing and handoff law so later chains remain derivative
-   Status: staged
+   Status: completed
 6. stage platform-account and browser execution preflight for the five chain emails without mutating live platform state yet
-   Status: staged
+   Status: completed
 7. land telemetry only after the admitted inbound system is truthful enough to observe
+   Status: completed as bounded current-state telemetry over the admitted registry, not full constellation telemetry
+
+### Tranche AS — Acumen CC93 First Manifest And Strict Admission
+
+- **program_id**: `TRANCHE-AS`
+- **intent_refs**: `INT-SHELL-001`, `INT-SHELL-003`, `INT-SHELL-005`
+- **rosetta_refs**: `operator`, `runtime`, `verification`, `knowledge lane`, `feedstock`, `registry`, `repo sovereignty`
+- **execution_surface**: [IMPLEMENTATION-TRANCHE-AS-ACUMEN-CC93-FIRST-MANIFEST-AND-STRICT-ADMISSION.md](/Users/system/syncrescendence/program/IMPLEMENTATION-TRANCHE-AS-ACUMEN-CC93-FIRST-MANIFEST-AND-STRICT-ADMISSION.md)
+- **lineage_or_origin**: Campaign 13 synthesis and the shift from law-building to first observed admission proof
+
+1. backfill one specimen manifest pair and feedstock witness lineage for current Acumen intake
+   Status: staged
+2. teach the importer to emit strict policy-complete seed rows
+   Status: staged
+3. prove a first strict-clean admission or bounded legacy-backfill path
+   Status: staged
+4. widen telemetry over policy-bound admitted state
+   Status: staged
+5. add stronger shadow-intake guardrails
+   Status: staged
+6. prepare the first browser-bound live capture wave after the specimen path is proven
    Status: staged

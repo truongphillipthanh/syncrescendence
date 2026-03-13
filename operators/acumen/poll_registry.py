@@ -11,7 +11,12 @@ from typing import Any
 import urllib.request
 import xml.etree.ElementTree as ET
 
-from registry_contract import utc_now
+from registry_contract import (
+    ROLE_MAX_ITEMS_PER_POLL,
+    policy_findings,
+    policy_view,
+    utc_now,
+)
 
 
 ATOM_NS = {
@@ -40,6 +45,11 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--max-items-per-channel", type=int, default=5)
     parser.add_argument("--timeout-seconds", type=float, default=10.0)
     parser.add_argument("--force", action="store_true", help="Poll even if cadence window says not due.")
+    parser.add_argument(
+        "--strict-policy",
+        action="store_true",
+        help="Fail and block rows that are not explicitly bound to manifest, role, consumer, and budget policy.",
+    )
     return parser.parse_args()
 
 
@@ -83,6 +93,50 @@ def due_for_poll(channel: dict[str, Any], cursor_entry: dict[str, Any], now: dat
     cadence = str(channel.get("cadence", "irregular"))
     window = CADENCE_WINDOWS.get(cadence, CADENCE_WINDOWS["irregular"])
     return now - last_poll >= window
+
+
+def policy_state_for_channel(channel: dict[str, Any], *, strict_policy: bool) -> tuple[str, list[str], dict[str, Any]]:
+    policy = policy_view(channel)
+    findings = policy_findings(channel, require_explicit=strict_policy)
+    if findings:
+        if policy["policy_fields_present"] or strict_policy:
+            return "blocked_policy", findings, policy
+        return "legacy_unbound", findings, policy
+    if policy["policy_fields_present"]:
+        return "policy_bound", [], policy
+    return "legacy_unbound", [], policy
+
+
+def role_allows_poll(channel: dict[str, Any], policy: dict[str, Any], *, force: bool) -> tuple[bool, str | None]:
+    if force:
+        return True, None
+    portfolio_role = str(policy.get("portfolio_role") or "").strip()
+    if portfolio_role == "primary_only_witness":
+        return False, "primary_only_witness_suppressed"
+    if portfolio_role == "event_surge" and not bool(policy.get("event_window_active")):
+        return False, "event_window_inactive"
+    return True, None
+
+
+def max_items_for_channel(channel: dict[str, Any], policy: dict[str, Any], requested_max: int) -> int:
+    allowed = max(1, requested_max)
+    portfolio_role = str(policy.get("portfolio_role") or "").strip()
+    if portfolio_role in ROLE_MAX_ITEMS_PER_POLL:
+        allowed = min(allowed, ROLE_MAX_ITEMS_PER_POLL[portfolio_role])
+    try:
+        max_items_per_poll = int(policy.get("max_items_per_poll"))
+    except Exception:
+        max_items_per_poll = None
+    if max_items_per_poll is not None and max_items_per_poll > 0:
+        allowed = min(allowed, max_items_per_poll)
+    if portfolio_role == "event_surge" and not bool(policy.get("event_window_active")):
+        allowed = 1
+    if (
+        portfolio_role == "primary_only_witness"
+        or (str(channel.get("visual_dependency", "")) == "high" and portfolio_role != "event_surge")
+    ):
+        allowed = min(allowed, 1)
+    return max(1, allowed)
 
 
 def fetch_live_feed(channel_id: str, timeout_seconds: float) -> list[dict[str, Any]]:
@@ -205,16 +259,61 @@ def main() -> int:
     batch_rows: list[dict[str, Any]] = []
     channel_statuses: list[dict[str, Any]] = []
     failures = 0
+    policy_blocked = 0
+    legacy_unbound = 0
 
     for channel in channels:
         channel_id = str(channel.get("channel_id"))
         cursor_entry = dict(cursor.get("channels", {}).get(channel_id, {}))
+        policy_state, policy_messages, policy = policy_state_for_channel(channel, strict_policy=args.strict_policy)
+        portfolio_role = str(policy.get("portfolio_role") or "legacy_unbound")
+
+        if policy_state == "blocked_policy":
+            failures += 1
+            policy_blocked += 1
+            channel_statuses.append(
+                {
+                    "channel_id": channel_id,
+                    "channel_name": channel.get("name"),
+                    "portfolio_role": portfolio_role,
+                    "policy_state": policy_state,
+                    "status": "blocked_policy",
+                    "source_account": policy.get("source_account") or None,
+                    "downstream_chain_consumer_roles": policy.get("downstream_chain_consumer_roles", []),
+                    "messages": policy_messages,
+                }
+            )
+            continue
+
+        if policy_state == "legacy_unbound":
+            legacy_unbound += 1
+
+        role_allowed, role_reason = role_allows_poll(channel, policy, force=args.force)
+        if not role_allowed:
+            channel_statuses.append(
+                {
+                    "channel_id": channel_id,
+                    "channel_name": channel.get("name"),
+                    "portfolio_role": portfolio_role,
+                    "policy_state": policy_state,
+                    "status": "skipped_role_policy",
+                    "reason": role_reason,
+                    "source_account": policy.get("source_account") or None,
+                    "downstream_chain_consumer_roles": policy.get("downstream_chain_consumer_roles", []),
+                }
+            )
+            continue
+
         if not due_for_poll(channel, cursor_entry, now, args.force):
             channel_statuses.append(
                 {
                     "channel_id": channel_id,
                     "channel_name": channel.get("name"),
+                    "portfolio_role": portfolio_role,
+                    "policy_state": policy_state,
                     "status": "skipped_not_due",
+                    "source_account": policy.get("source_account") or None,
+                    "downstream_chain_consumer_roles": policy.get("downstream_chain_consumer_roles", []),
                 }
             )
             continue
@@ -235,13 +334,18 @@ def main() -> int:
                 {
                     "channel_id": channel_id,
                     "channel_name": channel.get("name"),
+                    "portfolio_role": portfolio_role,
+                    "policy_state": policy_state,
                     "status": "poll_failed",
                     "error": str(exc),
+                    "source_account": policy.get("source_account") or None,
+                    "downstream_chain_consumer_roles": policy.get("downstream_chain_consumer_roles", []),
                 }
             )
             continue
 
-        channel_items = channel_items[: args.max_items_per_channel]
+        effective_max_items = max_items_for_channel(channel, policy, args.max_items_per_channel)
+        channel_items = channel_items[:effective_max_items]
         normalized = [normalize_item(channel, item, source_mode) for item in channel_items]
         emitted = [item for item in normalized if is_new_item(item, cursor_entry)]
         batch_rows.extend(emitted)
@@ -250,10 +354,15 @@ def main() -> int:
             {
                 "channel_id": channel_id,
                 "channel_name": channel.get("name"),
+                "portfolio_role": portfolio_role,
+                "policy_state": policy_state,
                 "status": "ok",
                 "source_mode": source_mode,
                 "items_seen": len(normalized),
                 "new_items": len(emitted),
+                "max_items_applied": effective_max_items,
+                "source_account": policy.get("source_account") or None,
+                "downstream_chain_consumer_roles": policy.get("downstream_chain_consumer_roles", []),
             }
         )
 
@@ -272,6 +381,11 @@ def main() -> int:
         "new_uploads": len(batch_rows),
         "failures": failures,
         "ok": failures == 0,
+        "policy": {
+            "strict": args.strict_policy,
+            "blocked_channels": policy_blocked,
+            "legacy_unbound_channels": legacy_unbound,
+        },
         "external_dependencies": {
             "youtube_feed": {
                 "required": requires_live,

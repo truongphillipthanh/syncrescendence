@@ -7,7 +7,7 @@ import argparse
 import json
 from pathlib import Path
 
-from registry_contract import validate_registry
+from registry_contract import policy_findings, policy_view, validate_registry
 
 
 def parse_args() -> argparse.Namespace:
@@ -32,13 +32,35 @@ def main() -> int:
         return 1
 
     channels = payload.get("channels", [])
+    policy_issues: list[str] = []
+    policy_bound_channels = 0
+    for channel in channels:
+        policy = policy_view(channel)
+        if policy["policy_fields_present"]:
+            policy_bound_channels += 1
+        policy_issues.extend(policy_findings(channel, require_explicit=args.strict))
+
     print("registry=valid")
     print(f"channels={len(channels)}")
+    print(f"policy_bound_channels={policy_bound_channels}")
+
+    if args.strict and policy_issues:
+        print("strict_policy=invalid")
+        for item in policy_issues:
+            print(f"- {item}")
+        return 2
+
+    if policy_issues:
+        print("policy_warnings=yes")
+        for item in policy_issues:
+            print(f"- {item}")
+
     if args.strict:
         for channel in channels:
             if channel.get("signal_density") == "low" and channel.get("priority_band") == "Tier 1":
+                print("strict_policy=invalid")
                 print(
-                    "strict_warning: low-density channel is still Tier 1 "
+                    "- low-density channel is still Tier 1 "
                     f"({channel.get('channel_id')}, {channel.get('name')})"
                 )
                 return 2

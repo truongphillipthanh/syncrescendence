@@ -1,0 +1,496 @@
+{
+  "admitted_inbound_system": {
+    "label": "observed",
+    "sources": [
+      "orchestration/state/impl/ACUMEN-TELEMETRY-FAMILY-CONTRACT-v1.md",
+      "runtime/acumen/registry.json",
+      "runtime/acumen/poll-status.json",
+      "runtime/acumen/triage-status.json",
+      "orchestration/state/ACUMEN-PIPELINE-STATUS.json"
+    ],
+    "value": {
+      "broader_constellation_telemetry": {
+        "label": "unavailable",
+        "reason": "The five-account constellation/import spine is not part of the admitted observed input set for this report.",
+        "sources": [
+          "orchestration/state/impl/ACUMEN-TELEMETRY-FAMILY-CONTRACT-v1.md"
+        ],
+        "value": null
+      },
+      "completeness": {
+        "label": "observed",
+        "reason": "Registry admission and traversal exist, but broader constellation admission is not part of this observed family.",
+        "sources": [
+          "runtime/acumen/registry.json",
+          "runtime/acumen/poll-status.json",
+          "runtime/acumen/triage-status.json"
+        ],
+        "value": "minimal_registry_only"
+      },
+      "pipeline_profile": {
+        "label": "observed",
+        "sources": [
+          "orchestration/state/ACUMEN-PIPELINE-STATUS.json"
+        ],
+        "value": "fixture_safe"
+      },
+      "poll_mode": {
+        "label": "observed",
+        "sources": [
+          "runtime/acumen/poll-status.json"
+        ],
+        "value": "fixture"
+      },
+      "real_system_observed": {
+        "label": "observed",
+        "sources": [
+          "runtime/acumen/registry.json",
+          "runtime/acumen/poll-status.json"
+        ],
+        "value": true
+      },
+      "system_kind": {
+        "label": "observed",
+        "sources": [
+          "runtime/acumen/registry.json",
+          "runtime/acumen/poll-status.json"
+        ],
+        "value": "registry_backed_acumen_youtube_intake"
+      },
+      "triage_mode": {
+        "label": "observed",
+        "sources": [
+          "runtime/acumen/triage-status.json"
+        ],
+        "value": "heuristic"
+      }
+    }
+  },
+  "contract_path": {
+    "label": "observed",
+    "sources": [
+      "orchestration/state/impl/ACUMEN-TELEMETRY-FAMILY-CONTRACT-v1.md"
+    ],
+    "value": "orchestration/state/impl/ACUMEN-TELEMETRY-FAMILY-CONTRACT-v1.md"
+  },
+  "cost_and_proof_surface": {
+    "label": "observed",
+    "sources": [
+      "runtime/acumen/triage-status.json",
+      "orchestration/state/registry/acumen-training-corpus-ledger.jsonl",
+      "orchestration/state/ACUMEN-LIVE-BATCH-PROOF-STATUS.json",
+      "orchestration/state/ACUMEN-LIVE-BATCH-PROOF-REPORT.json"
+    ],
+    "value": {
+      "estimated_cost_per_call_usd": {
+        "label": "estimated",
+        "reason": "The current cost surface is explicitly estimated, not provider-billed truth.",
+        "sources": [
+          "runtime/acumen/triage-status.json"
+        ],
+        "value": 0.0
+      },
+      "estimated_cost_usd": {
+        "label": "estimated",
+        "reason": "The current cost surface is explicitly estimated, not provider-billed truth.",
+        "sources": [
+          "runtime/acumen/triage-status.json"
+        ],
+        "value": 0.0
+      },
+      "gemini_calls_used": {
+        "label": "observed",
+        "sources": [
+          "runtime/acumen/triage-status.json"
+        ],
+        "value": 0
+      },
+      "latest_failure_code": {
+        "label": "observed",
+        "sources": [
+          "orchestration/state/ACUMEN-LIVE-BATCH-PROOF-STATUS.json"
+        ],
+        "value": "missing_credentials"
+      },
+      "latest_failure_domain": {
+        "label": "observed",
+        "sources": [
+          "orchestration/state/ACUMEN-LIVE-BATCH-PROOF-STATUS.json"
+        ],
+        "value": "credential"
+      },
+      "latest_proof_outcome": {
+        "label": "observed",
+        "sources": [
+          "orchestration/state/ACUMEN-LIVE-BATCH-PROOF-STATUS.json"
+        ],
+        "value": "blocked"
+      },
+      "live_batch_proof_present": {
+        "label": "observed",
+        "sources": [
+          "orchestration/state/ACUMEN-LIVE-BATCH-PROOF-STATUS.json",
+          "orchestration/state/ACUMEN-LIVE-BATCH-PROOF-REPORT.json"
+        ],
+        "value": false
+      },
+      "model_mix": {
+        "label": "observed",
+        "sources": [
+          "orchestration/state/registry/acumen-training-corpus-ledger.jsonl"
+        ],
+        "value": [
+          "deterministic-heuristic=2"
+        ]
+      },
+      "observed_provider_billing_usd": {
+        "label": "unavailable",
+        "reason": "No committed live provider billing evidence exists in the admitted observed system.",
+        "sources": [
+          "runtime/acumen/triage-status.json",
+          "orchestration/state/ACUMEN-LIVE-BATCH-PROOF-STATUS.json"
+        ],
+        "value": null
+      },
+      "proof_gate_reason_code": {
+        "label": "observed",
+        "sources": [
+          "orchestration/state/ACUMEN-LIVE-BATCH-PROOF-STATUS.json"
+        ],
+        "value": "missing_pipeline_status"
+      },
+      "proof_validator_findings": {
+        "label": "observed",
+        "sources": [
+          "orchestration/state/ACUMEN-LIVE-BATCH-PROOF-REPORT.json"
+        ],
+        "value": 0
+      },
+      "provider_mix": {
+        "label": "observed",
+        "sources": [
+          "orchestration/state/registry/acumen-training-corpus-ledger.jsonl"
+        ],
+        "value": [
+          "local=2"
+        ]
+      }
+    }
+  },
+  "derivative_boundary": {
+    "label": "observed",
+    "sources": [
+      "orchestration/state/impl/ACUMEN-TELEMETRY-FAMILY-CONTRACT-v1.md",
+      "runtime/acumen/registry.json",
+      "runtime/acumen/poll-status.json",
+      "runtime/acumen/triage-status.json",
+      "orchestration/state/ACUMEN-PIPELINE-STATUS.json",
+      "orchestration/state/ACUMEN-TRIAGE-EVIDENCE-REPORT.json",
+      "orchestration/state/ACUMEN-AUGUR-VERIFICATION-BRIDGE.json",
+      "orchestration/state/ACUMEN-LIVE-BATCH-PROOF-STATUS.json"
+    ],
+    "value": "Telemetry is derivative of admitted registry, poll, triage, evidence, bridge, and proof surfaces only."
+  },
+  "five_account_constellation_surface": {
+    "label": "unavailable",
+    "reason": "Unavailable by design in this report. The family only observes the current registry-backed Acumen intake; five-account constellation/import telemetry remains outside the admitted observed boundary.",
+    "sources": [
+      "orchestration/state/impl/ACUMEN-TELEMETRY-FAMILY-CONTRACT-v1.md"
+    ],
+    "value": null
+  },
+  "generated_at": {
+    "label": "observed",
+    "sources": [
+      "orchestration/state/impl/ACUMEN-TELEMETRY-FAMILY-CONTRACT-v1.md"
+    ],
+    "value": "2026-03-13T20:21:26Z"
+  },
+  "poll_surface": {
+    "label": "observed",
+    "sources": [
+      "runtime/acumen/poll-status.json",
+      "runtime/acumen/registry.json"
+    ],
+    "value": {
+      "captured_at": {
+        "label": "observed",
+        "sources": [
+          "runtime/acumen/poll-status.json"
+        ],
+        "value": "2026-03-13T04:37:48Z"
+      },
+      "channel_status_lines": {
+        "label": "observed",
+        "sources": [
+          "runtime/acumen/poll-status.json"
+        ],
+        "value": [
+          "UC_x5XG1OV2P6uZZ5FSM9Ttw:Google DeepMind:status=ok:mode=fixture:new=0",
+          "UCv83tO5cePwHMt1952IVVHw:Andrej Karpathy:status=ok:mode=fixture:new=0"
+        ]
+      },
+      "channels_in_registry_seen": {
+        "label": "observed",
+        "sources": [
+          "runtime/acumen/registry.json",
+          "runtime/acumen/poll-status.json"
+        ],
+        "value": 2
+      },
+      "channels_total": {
+        "label": "observed",
+        "sources": [
+          "runtime/acumen/poll-status.json"
+        ],
+        "value": 2
+      },
+      "failures": {
+        "label": "observed",
+        "sources": [
+          "runtime/acumen/poll-status.json"
+        ],
+        "value": 0
+      },
+      "live_upstream_counts": {
+        "label": "unavailable",
+        "reason": "The committed poll snapshot is fixture-backed, so upstream live discovery counts are not directly observed here.",
+        "sources": [
+          "runtime/acumen/poll-status.json"
+        ],
+        "value": null
+      },
+      "new_uploads": {
+        "label": "observed",
+        "sources": [
+          "runtime/acumen/poll-status.json"
+        ],
+        "value": 0
+      }
+    }
+  },
+  "receipt": {
+    "label": "observed",
+    "sources": [
+      "orchestration/state/impl/ACUMEN-TELEMETRY-FAMILY-CONTRACT-v1.md",
+      "runtime/acumen/registry.json",
+      "runtime/acumen/poll-status.json",
+      "runtime/acumen/triage-status.json",
+      "orchestration/state/ACUMEN-PIPELINE-STATUS.json"
+    ],
+    "value": "A real admitted inbound system is observable, but only at the current registry-backed Acumen intake layer. The broader admitted inbound system is still incomplete, so this family stays minimal and marks five-account constellation telemetry unavailable instead of fabricating authority."
+  },
+  "registry_surface": {
+    "label": "observed",
+    "sources": [
+      "runtime/acumen/registry.json"
+    ],
+    "value": {
+      "channel_names": {
+        "label": "observed",
+        "sources": [
+          "runtime/acumen/registry.json"
+        ],
+        "value": [
+          "Google DeepMind",
+          "Andrej Karpathy"
+        ]
+      },
+      "channels_total": {
+        "label": "observed",
+        "sources": [
+          "runtime/acumen/registry.json"
+        ],
+        "value": 2
+      },
+      "generated_at": {
+        "label": "observed",
+        "sources": [
+          "runtime/acumen/registry.json"
+        ],
+        "value": "2026-03-13T04:37:46Z"
+      },
+      "seed_source": {
+        "label": "observed",
+        "sources": [
+          "runtime/acumen/registry.json"
+        ],
+        "value": "/Users/system/syncrescendence/operators/acumen/channel_seed.example.json"
+      }
+    }
+  },
+  "schema_version": {
+    "label": "observed",
+    "sources": [
+      "orchestration/state/impl/ACUMEN-TELEMETRY-FAMILY-CONTRACT-v1.md"
+    ],
+    "value": "acumen.telemetry.report/v1"
+  },
+  "triage_surface": {
+    "label": "observed",
+    "sources": [
+      "runtime/acumen/triage-status.json",
+      "orchestration/state/registry/acumen-triage-decision-ledger.jsonl",
+      "orchestration/state/registry/acumen-training-corpus-ledger.jsonl",
+      "orchestration/state/ACUMEN-TRIAGE-EVIDENCE-REPORT.json"
+    ],
+    "value": {
+      "cumulative_training_events": {
+        "label": "observed",
+        "sources": [
+          "orchestration/state/registry/acumen-training-corpus-ledger.jsonl",
+          "orchestration/state/ACUMEN-TRIAGE-EVIDENCE-REPORT.json"
+        ],
+        "value": 2
+      },
+      "cumulative_triage_events": {
+        "label": "observed",
+        "sources": [
+          "orchestration/state/registry/acumen-triage-decision-ledger.jsonl",
+          "orchestration/state/ACUMEN-TRIAGE-EVIDENCE-REPORT.json"
+        ],
+        "value": 2
+      },
+      "current_batch_failures": {
+        "label": "observed",
+        "sources": [
+          "runtime/acumen/triage-status.json"
+        ],
+        "value": 0
+      },
+      "current_batch_processed": {
+        "label": "observed",
+        "sources": [
+          "runtime/acumen/triage-status.json"
+        ],
+        "value": 0
+      },
+      "current_batch_skipped_existing": {
+        "label": "observed",
+        "sources": [
+          "runtime/acumen/triage-status.json"
+        ],
+        "value": 0
+      },
+      "current_batch_training_records": {
+        "label": "observed",
+        "sources": [
+          "runtime/acumen/triage-status.json"
+        ],
+        "value": 0
+      },
+      "decision_mix": {
+        "label": "observed",
+        "sources": [
+          "orchestration/state/registry/acumen-triage-decision-ledger.jsonl"
+        ],
+        "value": [
+          "Compress=1",
+          "Promote=1"
+        ]
+      },
+      "evidence_findings": {
+        "label": "observed",
+        "sources": [
+          "orchestration/state/ACUMEN-TRIAGE-EVIDENCE-REPORT.json"
+        ],
+        "value": 0
+      },
+      "evidence_status": {
+        "label": "observed",
+        "sources": [
+          "orchestration/state/ACUMEN-TRIAGE-EVIDENCE-REPORT.json"
+        ],
+        "value": "PASS"
+      },
+      "promotion_eligible_events": {
+        "label": "observed",
+        "sources": [
+          "orchestration/state/registry/acumen-triage-decision-ledger.jsonl"
+        ],
+        "value": 1
+      },
+      "promotion_eligible_ratio": {
+        "label": "observed",
+        "sources": [
+          "orchestration/state/registry/acumen-triage-decision-ledger.jsonl"
+        ],
+        "value": 0.5
+      }
+    }
+  },
+  "verification_ready_surface": {
+    "label": "observed",
+    "sources": [
+      "orchestration/state/ACUMEN-AUGUR-VERIFICATION-BRIDGE.json",
+      "orchestration/state/ACUMEN-AUGUR-VERIFICATION-BRIDGE-REPORT.json"
+    ],
+    "value": {
+      "augur_packets_written": {
+        "label": "observed",
+        "sources": [
+          "orchestration/state/ACUMEN-AUGUR-VERIFICATION-BRIDGE.json"
+        ],
+        "value": 1
+      },
+      "awaiting_response": {
+        "label": "observed",
+        "sources": [
+          "orchestration/state/ACUMEN-AUGUR-VERIFICATION-BRIDGE.json"
+        ],
+        "value": 1
+      },
+      "bridge_validation_findings": {
+        "label": "observed",
+        "sources": [
+          "orchestration/state/ACUMEN-AUGUR-VERIFICATION-BRIDGE-REPORT.json"
+        ],
+        "value": 0
+      },
+      "bridge_validation_ok": {
+        "label": "observed",
+        "sources": [
+          "orchestration/state/ACUMEN-AUGUR-VERIFICATION-BRIDGE-REPORT.json"
+        ],
+        "value": true
+      },
+      "dossiers_written": {
+        "label": "observed",
+        "sources": [
+          "orchestration/state/ACUMEN-AUGUR-VERIFICATION-BRIDGE.json"
+        ],
+        "value": 1
+      },
+      "eligible_items_total": {
+        "label": "observed",
+        "sources": [
+          "orchestration/state/ACUMEN-AUGUR-VERIFICATION-BRIDGE.json"
+        ],
+        "value": 1
+      },
+      "selected_batch_items": {
+        "label": "observed",
+        "sources": [
+          "orchestration/state/ACUMEN-AUGUR-VERIFICATION-BRIDGE.json"
+        ],
+        "value": 1
+      },
+      "verification_complete_ratio": {
+        "label": "unavailable",
+        "reason": "No ingested verification return is present in the current bridge state.",
+        "sources": [
+          "orchestration/state/ACUMEN-AUGUR-VERIFICATION-BRIDGE.json",
+          "orchestration/state/ACUMEN-AUGUR-VERIFICATION-BRIDGE-REPORT.json"
+        ],
+        "value": null
+      },
+      "verification_ready_ratio": {
+        "label": "observed",
+        "sources": [
+          "orchestration/state/ACUMEN-AUGUR-VERIFICATION-BRIDGE.json"
+        ],
+        "value": 1.0
+      }
+    }
+  }
+}

@@ -82,6 +82,28 @@ This lane carries three different truth classes that should not be merged:
    - `triage-decisions.sample.jsonl`
    - `poll-fixture.sample.json`
 
+## Inbound Feed Capture Staging
+
+The upstream curated-feed path now has a repo-local capture law before any import or registry mutation:
+
+`browser/session recon -> raw capture witness -> normalized manifest -> validation -> inbound portfolio -> registry-ready seed`
+
+This staging boundary exists so browser-visible account state, preserved raw captures, normalized manifests, and later import outputs do not collapse into one hidden authority surface.
+
+Rules for this upstream family:
+
+1. raw captures must be preserved through:
+   - `/Users/system/syncrescendence/knowledge/feedstock/inbox`
+   - `/Users/system/syncrescendence/knowledge/feedstock/receipts`
+2. normalized manifest pairs live under:
+   - `/Users/system/syncrescendence/runtime/acumen/inbound-feed-manifests`
+3. identity ambiguity blocks the run before validation or import
+4. non-YouTube captures may remain portfolio-visible but registry-deferred until matching workers exist
+5. outbound follow or subscription mutation remains outside the scope of the Acumen runtime lane
+
+This upstream family is staged input doctrine, not a second intake runtime.
+`runtime/acumen/registry.json` remains the live worker-facing intake surface only after a later validated import path admits registry-ready rows.
+
 ## Repo-Sovereign Evidence
 
 Append-only evidence for the runtime files lives at:
